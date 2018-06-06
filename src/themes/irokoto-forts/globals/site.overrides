@@ -1,4 +1,25 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; 
+}
+
+@media print, screen and (max-width: 767px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.btn-link {
+  cursor: pointer;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+  margin: 20px 0 0 0;
   background-color: #fff1f1;
 }
 
@@ -6,7 +27,6 @@ body {
 	width: 223px;
 	height: 46px;
 }
-
 
 .login-content-inner {
 	width: 50%;

@@ -1,0 +1,13 @@
+.ui.button:hover {
+  border: 1px solid #eb5871;
+  box-shadow: none;
+}
+
+.ui.button {
+  padding: 16px 0 18px;
+  width: 220px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 25px;
+}

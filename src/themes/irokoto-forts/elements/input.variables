@@ -1,0 +1,7 @@
+@transition:
+  none
+;
+
+@focusBorderColor: #86b1dc;
+@focusColor: #86b1dc
+@borderColor: #dde3e9;

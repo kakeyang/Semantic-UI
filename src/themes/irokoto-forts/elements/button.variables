@@ -11,6 +11,7 @@
 @backgroundImage: none;
 @fontWeight: bold;
 @textColor: #fff;
+@hoveredTextColor: #eb5871;
 @borderColor: 1px solid #eb5871;
 @boxShadow:
   0 7px 10px rgba(97, 110, 122, 0.1)
