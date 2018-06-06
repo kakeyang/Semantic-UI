@@ -25,10 +25,10 @@ body {
 
 .btn-link {
   cursor: pointer;
-  font-size: 1.3rem;
   letter-spacing: 0.05em;
-  margin: 20px 0 0 0;
-  background-color: #fff1f1;
+  background: none !important;
+  border: none !important;
+  color: #1e70bf !important;
 }
 
 .logo {
