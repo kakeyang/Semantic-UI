@@ -31,6 +31,8 @@ body {
     .inline.field .required {
         float: left;
         margin: 16px 0px 0px;
+        font-size: 1.4rem;
+        color: rgb(97, 110, 122);
     }
     .inline.field .ui.input, .inline.field .selectDate>div {
         float: right;
