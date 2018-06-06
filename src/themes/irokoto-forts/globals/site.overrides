@@ -28,8 +28,11 @@ body {
 	height: 46px;
 }
 
+.login-form {
+  width: 400px !important;
+}
+
 .login-content-inner {
-	width: 50%;
   top: 50%;
   left: 50%;
   position: absolute;

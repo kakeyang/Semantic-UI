@@ -13,7 +13,7 @@
   border: 1px solid #dde3e9;
   border-radius: 4px;
   outline: none;
-  color: #cbd1d7;
+  color: #000;
 }
 
 .ui.form .field, .ui.input {
