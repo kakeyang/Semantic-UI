@@ -4,7 +4,7 @@
   /*transition: .2s;*/
   padding: 15px 15px 15px 40px;
   display: block;
-  width: 400px;
+  /*width: 400px;*/
   font-size: 15px;
   font-size: 15px;
   font-size: 1.5rem;
@@ -16,12 +16,14 @@
   color: #cbd1d7;
 }
 
-.ui.input input {
-  border: none;
-  padding: 0;
+.ui.form .field, .ui.input {
+  width: 400px;
 }
 
 .ui.form .field.field input:-webkit-autofill {
-  /*border-color: none !important;*/
-  border: 1px solid #cbd1d7 !important;
+  border: none;
+}
+
+.ui.form input:not([type]):focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=email]:focus, .ui.form input[type=file]:focus, .ui.form input[type=number]:focus, .ui.form input[type=password]:focus, .ui.form input[type=search]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=text]:focus, .ui.form input[type=time]:focus, .ui.form input[type=url]:focus {
+  border: 1px solid #86b1dc !important;
 }
