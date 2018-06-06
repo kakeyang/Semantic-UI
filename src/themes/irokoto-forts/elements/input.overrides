@@ -27,3 +27,9 @@
 .ui.form input:not([type]):focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=email]:focus, .ui.form input[type=file]:focus, .ui.form input[type=number]:focus, .ui.form input[type=password]:focus, .ui.form input[type=search]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=text]:focus, .ui.form input[type=time]:focus, .ui.form input[type=url]:focus {
   border: 1px solid #86b1dc !important;
 }
+
+.ui.icon.input>i.icon {
+  color: #86b1dc;
+  font-size: 1.5rem;
+  line-height: 0.5rem;
+}

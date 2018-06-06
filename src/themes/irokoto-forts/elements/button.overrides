@@ -4,6 +4,7 @@
 }
 
 .ui.button {
+  border: 1px solid #eb5871;
   padding: 16px 0 18px;
   width: 220px;
   font-size: 16px;
