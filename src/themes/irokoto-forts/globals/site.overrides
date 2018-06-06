@@ -1,3 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: #fff1f1;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; 
+}
+
+@media print, screen and (max-width: 767px) {
+    body {
+      -webkit-text-size-adjust: 100%;
+      -webkit-overflow-scrolling: touch;
+    }
+}
+
+.btn-link {
+    cursor: pointer;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+    margin: 20px 0 0 0;
 }
