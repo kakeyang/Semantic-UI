@@ -5,7 +5,7 @@ html {
 body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 @media print, screen and (max-width: 767px) {
@@ -13,13 +13,6 @@ body {
       -webkit-text-size-adjust: 100%;
       -webkit-overflow-scrolling: touch;
     }
-}
-
-.adm-contents-inner {
-    width: 1200px;
-    background-color: rgb(255, 255, 255);
-    padding: 40px 0px 60px;
-    margin: 0px auto;
 }
 
 .ui.form {
@@ -88,4 +81,72 @@ body {
         border-radius: 4px;
         outline: none;
     }
+}
+.sw-ttl {
+  padding: 20px;
+  margin: 0 auto 30px;
+  width: 1200px;
+  background-color: #86b1dc;
+  border-radius: 5px; 
+	.ui.header {
+		display: block;
+	  -webkit-margin-before: 0.83em;
+	  -webkit-margin-after: 0.83em;
+	  -webkit-margin-start: 0px;
+	  -webkit-margin-end: 0px;
+		color: #fff;
+		font-size: 1.6rem;
+		font-weight: 500;
+		letter-spacing: 0.025em;
+	}
+}
+.adm-contents {
+  padding: 40px 0 90px 0;
+}
+.adm-contents-inner {
+	padding: 40px 0 60px 0;
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #fff;
+}
+.adm-contents_form {
+	margin: 0 auto;
+	width: 485px;
+	color: #616e7a;
+	font-size: 14px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	letter-spacing: 0.025em;
+}
+.st-container {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.isAdmin {
+  background-color: #f1f5f9;
+}
+.st-header {
+  padding: 28px 35px;
+  width: 100%;
+  background-color: #fff;
+  .st-header_logo {
+    margin: 8px 0 0 0;
+    font-size: 0;
+    float: left;
+    .st-header_logo_company {
+    	margin: 0 0 0 25px;
+    	display: inline-block;
+    	vertical-align: middle;
+    	color: #616e7a;
+    	font-size: 15px;
+    	font-size: 15px;
+    	font-size: 1.5rem;
+    	font-weight: 500;
+    	letter-spacing: 0.025em;
+    }
+  }
+}
+.admin-title {
+	color: #fff;
 }
