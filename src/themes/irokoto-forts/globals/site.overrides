@@ -1,3 +1,17 @@
 body {
   background-color: #fff1f1;
 }
+
+.logo {
+	width: 223px;
+	height: 46px;
+}
+
+
+.login-content-inner {
+	width: 50%;
+    top: 51%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
