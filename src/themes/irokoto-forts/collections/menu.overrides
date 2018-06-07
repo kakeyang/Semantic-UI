@@ -1,0 +1,10 @@
+.ui.menu:not(.vertical) .item>.button {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.ui.secondary.menu .item {
+  padding: 0;
+}
