@@ -14,7 +14,7 @@
   color: #000;
 }
 
-.ui.form .field, .ui.input {
+.ui.form .login-field{
   width: 400px;
 }
 

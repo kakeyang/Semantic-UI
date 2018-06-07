@@ -12,3 +12,7 @@
   font-weight: 500;
   border-radius: 25px;
 }
+
+.adm-contents-inner .ui.form .ui.button {
+    margin: 60px auto 0;
+}
