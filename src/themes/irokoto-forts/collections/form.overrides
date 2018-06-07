@@ -1,5 +1,4 @@
 .ui.form {
-    width: 485px;
     color: rgb(97, 110, 122);
     font-size: 1.4rem;
     font-weight: 500;
@@ -43,4 +42,8 @@
         float: right;
         position: relative;
     }
+}
+
+.account-form {
+    width: 485px;
 }
