@@ -4,10 +4,9 @@ src/_site/
 test/coverage/
 coverage/
 src/**/site/
-theme.config
 semantic.json
 tasks/**/oauth.js
-
+dist/
 # Numerous always-ignore extensions
 *.diff
 *.err
