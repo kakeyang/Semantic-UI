@@ -11,8 +11,22 @@
   font-size: 1.6rem;
   font-weight: 500;
   border-radius: 25px;
+  background-image: none;
 }
 
 .adm-contents-inner .ui.form .ui.button {
     margin: 30px auto 0;
+}
+
+.ui.secondary.button, .ui.secondary.buttons .button {
+  background-color: #6d7984;
+  border: 1px solid #6d7984;
+  box-shadow: 0 2px 4px #c8cfd5;
+  background-image: none;
+}
+
+.ui.secondary.button:hover, .ui.secondary.buttons .button:hover {
+  background-color: #fff;
+  color: #6d7984;
+  box-shadow: none;
 }
