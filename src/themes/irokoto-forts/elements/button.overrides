@@ -14,5 +14,5 @@
 }
 
 .adm-contents-inner .ui.form .ui.button {
-    margin: 60px auto 0;
+    margin: 30px auto 0;
 }

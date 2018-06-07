@@ -60,34 +60,11 @@ body {
         float: right;
         position: relative;
     }
-
-    .inline.field .ui.input input[type="text"]:placeholder-shown,
-    .inline.field .ui.input input[type="password"]:placeholder-shown,
-    .ui.form .inline.field .ui.input .react-datepicker-wrapper .react-datepicker__input-container {
-        color: rgb(203, 209, 215);
-    }
-    .inline.field .ui.input input[type="text"],
-    .inline.field .ui.input input[type="password"],
-    .inline.field .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
-        width: 320px;
-        color: rgb(109, 121, 132);
-        font-size: 1.4rem;
-        font-family: "Noto Sans Japanese";
-        font-weight: 500;
-        letter-spacing: 0.025em;
-        padding: 12px 12px 13px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: rgb(221, 227, 233);
-        border-image: initial;
-        border-radius: 4px;
-        outline: none;
-    }
 }
 .sw-ttl {
   padding: 20px;
   margin: 0 auto 30px;
-  width: 1200px;
+  width: 100%;
   background-color: #86b1dc;
   border-radius: 5px; 
 	.ui.header {
@@ -108,7 +85,7 @@ body {
 .adm-contents-inner {
 	padding: 40px 0 60px 0;
 	margin: 0 auto;
-	width: 1200px;
+	width: 100%;
 	background-color: #fff;
 	text-align: center;
 }
