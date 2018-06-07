@@ -1,4 +1,6 @@
 node_modules/
+dist/
+src/_site/
 test/coverage/
 coverage/
 src/**/site/

@@ -1,0 +1,46 @@
+.ui.form {
+    width: 485px;
+    color: rgb(97, 110, 122);
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    margin: 0px auto;
+    .inline.field {
+        margin: 0px 0px 20px!important;
+    }
+    .inline.field>label{
+        width: 100%!important;
+    }
+    .inline.field .required {
+        float: left;
+        margin: 16px 0px 0px;
+        font-size: 1.4rem;
+        color: rgb(97, 110, 122);
+    }
+    .inline.field .ui.input, .inline.field .selectDate>div {
+        float: right;
+        width : auto!important;
+    }
+    .inline.field .item_select select {
+        width: 223px;
+        color: rgb(109, 121, 132);
+        font-size: 1.4rem;
+        font-family: "Noto Sans Japanese";
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        background-color: rgb(255, 255, 255);
+        -webkit-appearance: none;
+        padding: 12px 12px 13px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(221, 227, 233);
+        border-image: initial;
+        outline: none;
+    }
+
+    .inline.field .item_select {
+        width: 320px;
+        float: right;
+        position: relative;
+    }
+}
