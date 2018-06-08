@@ -46,6 +46,7 @@
     .inline.field .item_radio {
         width: 320px;
         float: right;
+        text-align: left;
     }
 
     .inline.field .item_radio_label {
@@ -79,6 +80,17 @@
     .inline.field .item_radio .ui.checked + .item_radio_label {
         background-image: url(../images/icn_check.png);
     }
+
+    .item_error {
+        margin: 6px 0 8px 0;
+        color: #ea0303;
+        font-size: 12px;
+        font-size: 12px;
+        font-size: 1.2rem;
+        width: 320px;
+        float: right;
+        text-align: left;
+     }
 }
 
 .account-form {
