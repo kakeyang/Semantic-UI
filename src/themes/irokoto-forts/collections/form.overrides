@@ -69,16 +69,16 @@
         cursor: pointer;
     }
 
-    .inline.field .item_radio .ui.checked + .item_radio_label-open {
-        background-color: #eb5871;
+    .item_radio_label-open.radio-status-true {
+      background-color: #eb5871 !important;
     }
 
-    .inline.field .item_radio .ui.checked + .item_radio_label-close {
-        background-color: #7ba8d7;
+    .item_radio_label-close.radio-status-true {
+      background-color: #7ba8d7 !important;
     }
 
-    .inline.field .item_radio .ui.checked + .item_radio_label {
-        background-image: url(../images/icn_check.png);
+    .item_radio_label.radio-status-true {
+      background-image: url(../images/icn_check.png);
     }
 
     .item_error {
