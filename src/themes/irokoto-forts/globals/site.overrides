@@ -157,3 +157,11 @@ body {
     }
   }
 }
+
+.notice-form {
+  width: 95%;  
+}
+
+.button-notice-form {
+  margin-right: 35px !important;
+}
