@@ -96,3 +96,8 @@
 .account-form {
     width: 485px;
 }
+
+.confirm-form {
+    width: 600px;
+    margin: 0px auto;
+}
