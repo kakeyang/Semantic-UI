@@ -159,9 +159,25 @@ body {
 }
 
 .notice-form {
-  width: 95%;  
+  width: 93%;  
 }
 
 .button-notice-form {
   margin-right: 35px !important;
+}
+
+.datepicker-notice-form {
+  float: left !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#deliver_date {
+  width: 100%;
+}
+
+.content-notice-form {
+  margin-top: 20px !important; 
 }
