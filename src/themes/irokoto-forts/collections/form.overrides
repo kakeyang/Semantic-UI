@@ -96,3 +96,9 @@
 .account-form {
     width: 485px;
 }
+
+.notice-form {
+    margin: 0 auto;
+    width: 1120px;
+    color: #616e7a;
+}
