@@ -102,3 +102,8 @@
     width: 1120px;
     color: #616e7a;
 }
+
+.confirm-form {
+    width: 600px;
+    margin: 0px auto;
+}
