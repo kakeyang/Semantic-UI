@@ -181,3 +181,8 @@ body {
 .content-notice-form {
   margin-top: 20px !important; 
 }
+
+.adm-contents-inner-top {
+    padding: 0;
+    background-color: #f1f5f9;
+}
