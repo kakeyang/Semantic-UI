@@ -8,28 +8,119 @@
     border: 1px solid #f1f5f9!important;
     border-collapse: separate;
     border-spacing: 0;
-    th, td {
+    tr th, tr td, {
         padding: 25px 0;
         vertical-align: middle;
         border: 1px solid #f1f5f9;
         line-height: 1.4;
         position: relative;
         z-index: 1;
+        border-top: 1px solid #f1f5f9!important;
     }
+
+    .st-footer tr th {
+        border-top: 1px solid #f1f5f9!important;
+        background-color: #f1f5f9!important;
+    }
+
     .st-table_row_column-title {
         padding: 20px 0 20px 20px !important;
         width: 200px;
         text-align: left;
     }
+
     .st-table_row_column-content {
         padding: 20px 0 20px 20px !important;
         width: 400px;
         text-align: left;
     }
+
+    .st-table_row_column-number {
+        width: 70px;
+    }
+
+    .st-table_row_column-company {
+        width: 200px;
+    }
+
+    .st-table_row_column-account {
+        width: 145px;
+    }
+
+    .st-table_row_column-followers {
+        width: 125px;
+    }
+
+    .st-table_row_column-open, .st-table_row_column-close {
+        width: 110px;
+    }
+
+    .st-table_row_column-id {
+        width: 105px;
+    }
+
+    .st-table_row-normal .st-table_row_column-state {
+        color: #e85d75;
+        width: 80px;
+    }
+
+    .st-table_row_column-edit {
+        width: 150px;
+    }
+
+    .st-table_row {
+        background-color: #fff;
+    }
+
+    .st-table_row-normal {
+        position: relative;
+    }
+
+    .st-table_row-top {
+        color: #6d7984!important;
+        background-color: #f1f5f9!important;
+        border: none;
+    }
+
+    .st-table_row-close {
+        color: #6d7984;
+        background-color: #dfe5eb;
+    }
+
+    .st-table_row-normal:hover th, .st-table_row-normal:hover td {
+        border-spacing: 0 20px;
+        border-left: 1px solid #f1f5f9;
+        border-right: 1px solid #f1f5f9;
+        border-top: 1px solid #86b1dc!important;
+        border-bottom: 1px solid #86b1dc;
+        position: relative;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-number {
+        border-left: 1px solid #86b1dc;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-edit {
+        border-right: 1px solid #86b1dc;
+    }
+
+    .st-table_row_column-edit .sw-btn-blue:hover {
+        color: #7ba6d1;
+        background-color: #fff;
+        border: 1px solid #7ba6d1;
+    }
+}
+
+.st-table-list {
+    text-align: center!important;
 }
 
 .st-table-info {
     font-size: 15px;
     font-size: 15px;
     font-size: 1.5rem;
+}
+
+.st-table_row {
+    background-color: #fff;
 }

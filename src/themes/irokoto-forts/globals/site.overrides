@@ -157,3 +157,8 @@ body {
     }
   }
 }
+
+.adm-contents-inner-top {
+    padding: 0;
+    background-color: #f1f5f9;
+}
