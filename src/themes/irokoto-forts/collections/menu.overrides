@@ -88,3 +88,15 @@
   background-color: #eb5871;
   padding-top: 12px;
 }
+
+.ui.pagination a.item:focus {
+  outline-width: 0px!important;
+}
+
+.ui.pagination.menu .item:first-child {
+  margin-right: 20px;
+}
+
+.ui.pagination.menu .item:last-child {
+  margin-left: 15px;
+}
