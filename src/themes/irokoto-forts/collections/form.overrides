@@ -107,3 +107,40 @@
     width: 600px;
     margin: 0px auto;
 }
+
+.adm-contents_form-info {
+    margin: 0 auto;
+    width: 1120px;
+    color: #616e7a;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+
+    .adm-contents_form-info_item {
+        margin: 0 0 20px 0;
+    }
+
+    .adm-contents_form-info_item .item_label {
+        margin: 16px 20px 0 0;
+        float: left;
+    }
+
+    .adm-contents_form-info_item .item_text {
+        line-height: 1.8;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .adm-contents_form-info_item .item_text_date {
+        margin: 17px 0 0 0;
+        display: inline-block;
+    }
+
+    .adm-contents_form-info_item .item_text_detail {
+        margin: 17px 0 0 0;
+        display: inline-block;
+        clear: both;
+    }
+}

@@ -8,3 +8,83 @@
 .ui.secondary.menu .item {
   padding: 0;
 }
+
+.ui.pagination.menu {
+  margin: 0 -5px 0 0;
+  width: auto;
+  text-align: center;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.ui.pagination.menu .item:first-child, .ui.pagination.menu .item:last-child {
+  padding: 0;
+  background: no-repeat;
+  display: inline-flex;
+  margin-right: 20px;
+  background: none !important;
+  :hover {
+    transform: translateX(-5px);
+    transition: .2s;
+    background: none !important;
+  }
+}
+
+.ui.pagination.menu .item:first-child {
+  :hover {
+    transform: translateX(-5px);
+    transition: .2s;
+    background: none !important;
+  }
+}
+
+.ui.pagination.menu .item:last-child {
+  :hover {
+    transform: translateX(5px) rotate(180deg);
+    transition: .2s;
+    background: none !important;
+  }
+}
+
+.page-nav-img {
+  width: 20px !important;
+}
+
+.page-next {
+  transform: rotate(180deg);
+}
+
+.ui.pagination.menu .item {
+  min-width: 1em;
+  margin: 0 5px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 12px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+.ui.link.menu .item:focus, .ui.menu .link.item:focus, .ui.menu a.item:focus {
+  border: none;
+}
+
+.ui.pagination.menu .item:hover {
+  color: #fff;
+  background-color: #eb5871;
+}
+
+.ui.pagination.menu .item:before {
+  background: none;
+}
+
+.ui.pagination.menu .active.item {
+  color: #fff;
+  background-color: #eb5871;
+  padding-top: 12px;
+}

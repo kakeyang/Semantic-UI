@@ -64,7 +64,7 @@
         width: 80px;
     }
 
-    .st-table_row_column-edit {
+    .st-table_row_column-edit, .st-table_row_column-date {
         width: 150px;
     }
 
@@ -109,6 +109,16 @@
         background-color: #fff;
         border: 1px solid #7ba6d1;
     }
+
+    .st-table_row_column-title {
+        padding: 20px 0 20px 20px !important;
+        width: 900px;
+        text-align: left!important;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-title {
+        border-left: 1px solid #86b1dc;
+    }
 }
 
 .st-table-list {
@@ -116,11 +126,14 @@
 }
 
 .st-table-info {
-    font-size: 15px;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 15px!important;
+    font-size: 1.5rem!important;
 }
 
 .st-table_row {
     background-color: #fff;
+}
+
+.st-table-info th, .st-table-info td {
+    padding: 20px 0!important;
 }
