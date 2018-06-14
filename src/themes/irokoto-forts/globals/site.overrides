@@ -136,6 +136,10 @@ body {
   font-size: 1.5rem;
 }
 
+.st-header_logo_anchor:focus {
+  border: none !important;
+}
+
 .st-header {
   padding: 28px 35px;
   width: 100%;
