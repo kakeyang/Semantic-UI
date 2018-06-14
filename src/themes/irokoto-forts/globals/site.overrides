@@ -187,3 +187,25 @@ body {
     padding: 0;
     background-color: #f1f5f9;
 }
+
+.grid {
+  display: inline-grid;
+}
+
+.st-page {
+  margin: 60px 0;
+  padding: 0;
+  border: 0;
+}
+
+.ui.pagination a.item:focus {
+  outline-width: 0px!important;
+}
+
+.ui.pagination.menu .item:first-child {
+  margin-right: 20px;
+}
+
+.ui.pagination.menu .item:last-child {
+  margin-left: 20px;
+}
