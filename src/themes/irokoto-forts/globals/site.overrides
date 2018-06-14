@@ -209,3 +209,7 @@ body {
 .ui.pagination.menu .item:last-child {
   margin-left: 20px;
 }
+
+.cl-red {
+  color: #ff0000;
+}
