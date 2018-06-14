@@ -57,15 +57,6 @@
     }
 }
 
-.notice-form .inline.field .date-picker-notice {
-  width: 280px;
-  .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
-    width: 155px;
-    height: 47px;
-    padding-left: 37px;
-  }
-}
-
-.pd-bot-17 {
-  padding-bottom: 17px;
+.mar-top-20 {
+  margin-top: 20px;
 }

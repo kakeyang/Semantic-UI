@@ -97,12 +97,6 @@
     width: 485px;
 }
 
-.notice-form {
-    margin: 0 auto;
-    width: 1120px;
-    color: #616e7a;
-}
-
 .confirm-form {
     width: 600px;
     margin: 0px auto;
@@ -131,6 +125,17 @@
         line-height: 1.8;
         text-align: left;
         margin-left: 0px;
+    }
+
+    .adm-contents_form-info_item .item_text >textarea {
+        margin-top: 20px;
+    }
+    .adm-contents_form-info_item .item_text .react-datepicker-wrapper {
+        width: 155px;
+    }
+    .adm-contents_form-info_item .item_text .react-datepicker-wrapper .react-datepicker__input-container >input {
+        height: 47px;
+        padding-left: 36px;
     }
 
     .adm-contents_form-info_item .item_text_date {
