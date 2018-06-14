@@ -31,6 +31,7 @@
 }
 
 .ui.pagination.menu .item:first-child {
+  margin-right: 20px;
   :hover {
     transform: translateX(-5px);
     transition: .2s;
@@ -39,6 +40,7 @@
 }
 
 .ui.pagination.menu .item:last-child {
+  margin-left: 15px;
   :hover {
     transform: translateX(5px) rotate(180deg);
     transition: .2s;
@@ -91,12 +93,4 @@
 
 .ui.pagination a.item:focus {
   outline-width: 0px!important;
-}
-
-.ui.pagination.menu .item:first-child {
-  margin-right: 20px;
-}
-
-.ui.pagination.menu .item:last-child {
-  margin-left: 15px;
 }
