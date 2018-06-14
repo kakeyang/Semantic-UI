@@ -104,7 +104,7 @@
 
 .adm-contents_form-info {
     margin: 0 auto;
-    width: 1120px;
+    width: 93.333333%;
     color: #616e7a;
     font-size: 14px;
     font-size: 14px;
