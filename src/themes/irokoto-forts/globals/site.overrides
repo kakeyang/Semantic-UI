@@ -210,10 +210,23 @@ body {
   margin-left: 20px;
 }
 
-.cl-red {
-  margin: 6px 0 8px 0;
-  color: #ea0303;
-  font-size: 12px;
-  font-size: 1.2rem;
-  width: 320px;
+.inline-block {
+  display: inline-block;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.mr-top20 {
+  margin-top: 20px;
+}
+
+#fl-left {
+  float: left;
+}
+
+#fl-none-al-center{
+  float: none;
+  text-align: center;
 }
