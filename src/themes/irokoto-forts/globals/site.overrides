@@ -136,6 +136,10 @@ body {
   font-size: 1.5rem;
 }
 
+.st-header_logo_anchor:focus {
+  border: none !important;
+}
+
 .st-header {
   padding: 28px 35px;
   width: 100%;
@@ -210,6 +214,7 @@ body {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 .inline-block {
   display: inline-block;
 }
@@ -229,4 +234,20 @@ body {
 #fl-none-al-center{
   float: none;
   text-align: center;
+}
+
+.adm-contents_success {
+  padding: 60px 0 80px;
+  text-align: center;
+  color: #616e7a;
+  font-size: 15px;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin: 0 !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
 }
