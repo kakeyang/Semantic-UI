@@ -222,17 +222,20 @@ body {
   width: 100%;
 }
 
-.mr-top20 {
+.mt20 {
   margin-top: 20px;
 }
 
-#fl-left {
-  float: left;
+.fl {
+  float: left !important;
 }
 
-#fl-none-al-center{
-  float: none;
-  text-align: center;
+.fl-none {
+  float: none !important;
+}
+
+.center {
+  text-align: center !important;
 }
 
 .adm-contents_success {
