@@ -127,6 +127,17 @@
         margin-left: 0px;
     }
 
+    .adm-contents_form-info_item .item_text >textarea {
+        margin-top: 20px;
+    }
+    .adm-contents_form-info_item .item_text .react-datepicker-wrapper {
+        width: 155px;
+    }
+    .adm-contents_form-info_item .item_text .react-datepicker-wrapper .react-datepicker__input-container >input {
+        height: 47px;
+        padding-left: 36px;
+    }
+
     .adm-contents_form-info_item .item_text_date {
         margin: 17px 0 0 0;
         display: inline-block;
