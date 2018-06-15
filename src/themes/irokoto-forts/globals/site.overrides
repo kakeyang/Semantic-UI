@@ -214,7 +214,6 @@ body {
   margin-left: 20px;
 }
 
-<<<<<<< HEAD
 .inline-block {
   display: inline-block;
 }
