@@ -253,3 +253,7 @@ body {
 .mt30 {
   margin-top: 30px !important;
 }
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
