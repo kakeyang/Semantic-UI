@@ -3,3 +3,113 @@
     min-width: 1200px;
   }
 }
+
+.st-tab {
+    padding: 50px 0 40px 0;
+    clear: both;
+
+    .st-tab_contents.st-tab_contents-current {
+        display: block;
+        border-top: 3px solid #eb5871!important;
+    }
+
+    .st-tab_contents-inner {
+        text-align : left;
+    }
+
+    .st-tab_contents_tweet_embed {
+        margin: 25px 0 25px 0;
+    }
+
+    .st-tab_contents {
+        padding: 45px 40px!important;
+        display: none;
+        background-color: #fff!important;
+    }
+
+    .st-tab_contents_report {
+        padding: 0 0 40px 0;
+        border-bottom: 1px solid #f1f5f9;
+        font-size: 0;
+        .st-tab_contents_report_item {
+            margin: 0 50px 0 0;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 14px;
+            font-size: 14px;
+            font-size: 1.4rem;
+
+            .item_title-blue {
+                background-color: #87b2dc;
+            }
+
+            .item_title-red {
+                background-color: #eb5871;
+            }
+
+            .item_title {
+                padding: 7px 14px;
+                margin: 2px 20px 0 0;
+                display: inline-block;
+                vertical-align: middle;
+                color: #fff;
+                border-radius: 5px;
+                font-size: 14px;
+                font-size: 14px;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+
+            .item_count {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 36px;
+                font-size: 36px;
+                font-size: 3.6rem;
+                letter-spacing: 0.025em;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .st-tab_contents_tweet {
+        margin: 40px 0 0 0;
+        width: 400px;
+        float: left;
+    }
+
+    .st-tab_contents_timeline {
+        margin: 40px 0 0 0;
+        width: 680px;
+        float: right;
+    }
+
+    .st-tab_contents_tweet .sw-subttl, .st-tab_contents_timeline .sw-subttl {
+        padding: 0 0 0 13px;
+        display: inline-block;
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        line-height: 1;
+        position: relative;
+    }
+
+    .st-tab_contents_tweet .sw-subttl-16, .st-tab_contents_timeline .sw-subttl-16 {
+        font-size: 16px;
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .st-tab_contents_tweet .sw-subttl:after, .st-tab_contents_timeline .sw-subttl:after {
+        content: "";
+        display: block;
+        width: 3px;
+        height: 20px;
+        border-radius: 2px;
+        background-color: #86b1dc;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+}
