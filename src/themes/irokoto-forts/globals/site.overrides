@@ -306,3 +306,7 @@ body {
 .mt80 {
   margin-top: 80px !important;
 }
+
+.mr0 {
+  margin-right: 0px !important;
+}
