@@ -58,14 +58,16 @@
 }
 
 .log-contents_form_forget {
-  cursor: pointer;
-  font-size: 14px;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 14px !important;
+  font-size: 14px !important;
+  font-size: 1.4rem !important;
   position: relative;
-  color: #333333;
+  color: #333333 !important;
   font-weight: normal !important;
-  margin-left: 22px;
+  margin-left: 22px !important;
+  letter-spacing: .05em;
+  background: 0 0!important;
+  border: none!important;
 }
 
 .log-contents_form_forget:hover {
@@ -79,10 +81,8 @@
   width: 13px;
   height: 13px;
   background-image: url(../images/icn_forget-arrow.png);
-  background-repeat: no-repeat;
   background-size: 13px 13px;
   position: absolute;
-  top: 4.5px;
-  left: -20px;
-  transition: .2s;
+  top: 9.5px;
+  left: -10px;
 }
