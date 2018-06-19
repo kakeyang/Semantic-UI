@@ -1,0 +1,4 @@
+.ui.circular.image.img-user {
+  width: 140px;
+  height: 140px;
+}
