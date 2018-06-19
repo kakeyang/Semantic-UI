@@ -17,6 +17,22 @@
         text-align : left;
     }
 
+    .st-tab_contents_timeline_embed {
+        margin: 25px 0 25px 0;
+        border: 1px solid #f1f5f9;
+        border-top: 1px solid rgba(15,70,100,.12);
+        border-bottom: 1px solid rgba(15,70,100,.12);
+
+
+        .list-campaign-retweeter {
+            width: 100%;
+            margin-left: auto;
+            margin-right: 0;
+            max-height: 121.553vh;
+            overflow: scroll;
+        }
+    }
+
     .st-tab_contents_tweet_embed {
         margin: 25px 0 25px 0;
     }
