@@ -56,3 +56,33 @@
         outline: none;
     }
 }
+
+.log-contents_form_forget {
+  cursor: pointer;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  position: relative;
+  color: #333333;
+  font-weight: normal !important;
+  margin-left: 22px;
+}
+
+.log-contents_form_forget:hover {
+  text-decoration: underline;
+  color: #333333;
+}
+
+.log-contents_form_forget:after {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../images/icn_forget-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+  position: absolute;
+  top: 4.5px;
+  left: -20px;
+  transition: .2s;
+}
