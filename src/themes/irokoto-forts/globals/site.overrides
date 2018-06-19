@@ -352,6 +352,10 @@ body {
   line-height: 1;
 }
 
+.adm-contents_info_btn:hover {
+  color: #fff !important;
+}
+
 .adm-contents_info_btn:after {
   content: "";
   display: block;
@@ -364,4 +368,8 @@ body {
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
+}
+
+.mh300 {
+  min-height: 300px;
 }
