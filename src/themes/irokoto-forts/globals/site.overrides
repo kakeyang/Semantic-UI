@@ -270,6 +270,64 @@ body {
   margin-bottom: 30px !important;
 }
 
+.ml45 {
+  margin-left: 45px !important;
+}
+
+.fr {
+  float: right;
+}
+
+.mt4 {
+  margin-top: 4px !important;
+}
+
+.user-st-header {
+  padding: 35px 40px 30px 35px;
+  width: 100%;
+  min-width: 1200px;
+  background-color: #fff;
+  height: 101px;
+  .item_anchor {
+    padding: 0 0 0 35px !important;
+    margin: 0 0 10px 45px !important;
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700 !important;
+    color: #6d7984 !important;
+    letter-spacing: 0.05em;
+  }
+
+  .item_anchor:after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -4px;
+    left: 0;
+  }
+
+  .nth-child-1:after {
+    background-image: url(../images/icn_header-campaign.png);
+  }
+
+  .nth-child-2:after {
+    background-image: url(../images/icn_header-dm.png);
+  }
+
+  .nth-child-3:after {
+    background-image: url(../images/icn_header-report.png);
+  }
+
+  .nth-child-4:after {
+    background-image: url(../images/icn_header-account.png);
+  }
+}
+
 .mt35 {
   margin-top: 35px !important;
 }
