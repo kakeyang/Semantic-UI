@@ -1,0 +1,31 @@
+.Icon--verified {
+    width: 1.11111em;
+    background-image: url(../images/verified.png);
+}
+
+.Icon.Icon--verified {
+    display: inline-block;
+    height: 1.25em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+
+.TweetAuthor-verifiedBadge {
+    position: static;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -moz-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.TweetAuthor-screenName {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    padding-right: 4px;
+    color: #8899A6;
+}
