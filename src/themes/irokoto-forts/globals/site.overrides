@@ -257,3 +257,15 @@ body {
 .mb30 {
   margin-bottom: 30px !important;
 }
+
+.w550 {
+  width: 660px !important;
+}
+
+.w150 {
+  width: 150px !important;
+}
+
+.bg-red {
+  background-color: #eb5871 !important;
+}

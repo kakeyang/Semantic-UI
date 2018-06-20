@@ -119,6 +119,36 @@
     .st-table_row-normal:hover .st-table_row_column-title {
         border-left: 1px solid #86b1dc;
     }
+
+    .st-table_row_column-user-campaign-title {
+        width: 553px;
+        padding: 20px 0 20px 20px !important;
+        height: 81px;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-user-campaign-title {
+        border-left: 1px solid #86b1dc;
+    }
+
+    .sbm-campaign {
+        padding: 20px 0px 20px 0px !important;
+        width: 140px;
+    }
+
+    .sbm-campaign button {
+        padding: 11px 0px 12px 0px !important;
+        width: 140px;
+        height: 39px;
+    }
+
+    .st-table_row-normal:hover .st-hover {
+        border-spacing: 0 20px;
+        border-left: 1px solid #f1f5f9;
+        border-right: 1px solid #f1f5f9;
+        border-top: 1px solid #86b1dc!important;
+        border-bottom: 1px solid #86b1dc;
+        position: relative;
+    }
 }
 
 .st-table-list {
