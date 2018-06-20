@@ -1,11 +1,19 @@
+.ui.attached.tabular.menu {
+  display: block;
+  text-align: left;
+}
+
 .ui.tabular.menu .item {
+  text-align: center;
+  display: inline-block !important;
   width: 239px;
   height: 50px;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   color: #fff;
   background-color: #86b1dc;
   border-radius: 10px 10px 0 0;
+  margin: 0 1px -1px 0 !important;
   font-size: 14px;
   font-size: 14px;
   font-size: 1.4rem;
@@ -13,6 +21,7 @@
   line-height: 1.2;
   position: relative;
   transition: .2s;
+  border-left: none;
   margin: 0 1px 0 0;
   :hover {
     height: 60px;
@@ -35,4 +44,8 @@
   font-size: 1.6rem;
   color: #fff;
   border-radius: 10px 10px 0 0 !important;
+}
+
+.ui.attached.segment {
+  border: none;
 }
