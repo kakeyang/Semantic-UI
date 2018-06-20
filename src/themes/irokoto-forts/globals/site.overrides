@@ -270,18 +270,6 @@ body {
   margin-bottom: 30px !important;
 }
 
-.w550 {
-  width: 660px !important;
-}
-
-.w150 {
-  width: 150px !important;
-}
-
-.bg-red {
-  background-color: #eb5871 !important;
-}
-
 .ml45 {
   margin-left: 45px !important;
 }
