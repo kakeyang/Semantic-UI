@@ -4,6 +4,38 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>th {
+        width: auto!important;
+        display: table-cell!important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.container.dashboard_user {
+        width: 1200px!important;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .dashboard_user {
+        width: 1200px!important;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .dashboard_user {
+        width: 1200px!important;
+    }
+}
+
+.dashboard_user .adm-contents-inner-top {
+    width: 1200px;
+}
+
 .st-tab {
     padding: 50px 0 40px 0;
     clear: both;

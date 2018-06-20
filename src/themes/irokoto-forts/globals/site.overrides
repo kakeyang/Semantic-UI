@@ -385,11 +385,15 @@ body {
 }
 
 .fontSizeDescription {
-    font-size: 27px;
-    line-height: 36px;
-    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     margin-bottom: 12px;
     white-space: pre-wrap;
     word-wrap: break-word;
 
+}
+
+.customisable-highlight:hover {
+    color: #3b94d9;
 }
