@@ -254,6 +254,18 @@ body {
   margin-top: 30px !important;
 }
 
+.h16 {
+  height: 16px !important;
+}
+
+.w198 {
+  width: 198px !important;
+}
+
+.h46 {
+  height: 46px !important;
+}
+
 .mb30 {
   margin-bottom: 30px !important;
 }
@@ -314,4 +326,45 @@ body {
   .nth-child-4:after {
     background-image: url(../images/icn_header-account.png);
   }
+}
+
+.mt35 {
+  margin-top: 35px !important;
+}
+
+.log-contents_text {
+  margin: 40px 0 0 0;
+  font-size: 16px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.w430 {
+  width: 430px !important;
+}
+
+.mt60 {
+  margin-top: 60px;
+}
+
+.pt40 {
+  padding-top: 40px !important;
+}
+
+.mr30 {
+  margin-right: 30px !important;
+}
+
+.w200 {
+  width: 200px !important;
+}
+
+.mt80 {
+  margin-top: 80px !important;
+}
+
+.mr0 {
+  margin-right: 0px !important;
 }
