@@ -374,6 +374,22 @@ body {
   min-height: 300px;
 }
 
-.fontSize {
+.fontSizeName {
   font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 4px;
+}
+
+.fontSizeDescription {
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
 }
