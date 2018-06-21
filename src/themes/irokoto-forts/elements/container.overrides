@@ -166,6 +166,26 @@
     .ui.grid .w100 {
         width: 100%;
     }
+}
 
+.adm-contents .adm-contents-inner-table {
+    padding: 0;
+    background-color: transparent;
+}
 
+.adm-contents-inner-table {
+    .sw-btn-red {
+        box-shadow: 0 2px 3px #c8cfd5;
+    }
+
+    .sw-btn-l {
+        padding: 14px 0 15px;
+        width: 280px;
+        font-size: 16px;
+        font-size: 16px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1;
+        border-radius: 22px;
+    }
 }
