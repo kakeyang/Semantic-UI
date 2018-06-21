@@ -60,3 +60,9 @@
 .st-table_row_column-edit .sw-btn-center {
     margin: 0 auto;
 }
+
+.sw-btn-campaign {
+  width: 280px !important;
+  padding-top: 14px !important;
+  padding-bottom: 15px !important;
+}

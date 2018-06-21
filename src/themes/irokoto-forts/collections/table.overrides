@@ -134,7 +134,7 @@
     }
 
     .st-table_row_column-user-campaign-title {
-        width: 553px;
+        width: 524px;
         padding: 20px 0 20px 20px !important;
         height: 81px;
     }
