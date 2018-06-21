@@ -508,3 +508,27 @@ body {
 .mr0 {
   margin-right: 0px !important;
 }
+
+.adm-contents_account_icon:after {
+    content: "";
+    width: 156px;
+    height: 156px;
+    background-image: url(../images/icn_cut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.adm-contents_account_icon {
+    width: 140px;
+    height: 140px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
