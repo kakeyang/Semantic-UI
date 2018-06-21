@@ -532,3 +532,8 @@ body {
     position: relative;
     z-index: 1;
 }
+
+.ui.dashboard_user .adm-contents-inner-top {
+    padding: 40px 0 60px 0;
+    background-color: transparent;
+}
