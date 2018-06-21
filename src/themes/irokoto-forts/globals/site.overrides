@@ -419,7 +419,7 @@ body {
 }
 
 .user-st-header {
-  padding: 35px 40px 30px 35px;
+  padding: 35px 40px 30px 40px;
   width: 100%;
   min-width: 1200px;
   background-color: #fff;
@@ -506,7 +506,6 @@ body {
   margin-right: 0px !important;
 }
 
-<<<<<<< HEAD
 .tl {
   text-align: left !important;
 }
