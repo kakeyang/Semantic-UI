@@ -242,3 +242,9 @@
         display: block;
     }
 }
+
+.st-table-info-title {
+    width: 1050px !important;
+    height: 48px;
+    cursor: pointer;
+}
