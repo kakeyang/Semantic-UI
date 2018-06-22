@@ -110,6 +110,19 @@
         border: 1px solid #7ba6d1;
     }
 
+    .st-table_row_column-edit .sw-btn-red {
+        background-color: #eb5871;
+        border: 1px solid #eb5871;
+        -webkit-box-shadow: 0 2px 4px #c8cfd5;
+        box-shadow: 0 2px 4px #c8cfd5;
+    }
+
+    .st-table_row_column-edit .sw-btn-red:hover {
+        color: #eb5871;
+        background-color: #fff;
+        border: 1px solid #eb5871;
+    }
+
     .st-table_row_column-title {
         padding: 20px 0 20px 20px !important;
         width: 900px;
@@ -118,6 +131,36 @@
 
     .st-table_row-normal:hover .st-table_row_column-title {
         border-left: 1px solid #86b1dc;
+    }
+
+    .st-table_row_column-user-campaign-title {
+        width: 524px;
+        padding: 20px 0 20px 20px !important;
+        height: 81px;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-user-campaign-title {
+        border-left: 1px solid #86b1dc;
+    }
+
+    .sbm-campaign {
+        padding: 20px 0px 20px 0px !important;
+        width: 140px;
+    }
+
+    .sbm-campaign button {
+        padding: 11px 0px 12px 0px !important;
+        width: 140px;
+        height: 39px;
+    }
+
+    .st-table_row-normal:hover .st-hover {
+        border-spacing: 0 20px;
+        border-left: 1px solid #f1f5f9;
+        border-right: 1px solid #f1f5f9;
+        border-top: 1px solid #86b1dc!important;
+        border-bottom: 1px solid #86b1dc;
+        position: relative;
     }
 }
 
