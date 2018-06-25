@@ -80,10 +80,11 @@
   display: block;
   width: 13px;
   height: 13px;
+  background-repeat: no-repeat;
   background-image: url(../images/icn_forget-arrow.png);
   background-size: 13px 13px;
   position: absolute;
-  top: 9.5px;
+  top: 7.5px;
   left: -10px;
 }
 

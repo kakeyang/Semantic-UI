@@ -285,7 +285,7 @@
     float: left;
 }
 
-.st-form-dm .item_input input[type="text"],
+.st-form-dm .site.overrides input[type="text"],
 .st-form-dm .item_input input[type="password"],
 .st-form .item_select-long select {
     width: 640px;
