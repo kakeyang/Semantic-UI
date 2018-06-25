@@ -189,3 +189,10 @@
         border-radius: 22px;
     }
 }
+
+.ui.container.directMessage-form {
+    padding: 40px 30px 60px 30px;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+}

@@ -550,3 +550,18 @@ body {
     padding: 40px 0 60px 0;
     background-color: transparent;
 }
+
+.sw-txt-14 {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.sw-txt {
+    letter-spacing: 0.025em;
+    line-height: 1.8;
+}
+
+.st-form-dm .item_radio {
+    margin: 0 0 0 20px;
+    float: left;
+}
