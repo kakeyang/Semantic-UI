@@ -160,7 +160,6 @@
 
     .st-form_item {
         margin: 0;
-        height: 45px;
 
         .item_label {
             margin: 16px 0 0 0;
@@ -285,7 +284,7 @@
     float: left;
 }
 
-.st-form-dm .site.overrides input[type="text"],
+.st-form-dm .item_input .ui.input input[type="text"],
 .st-form-dm .item_input input[type="password"],
 .st-form .item_select-long select {
     width: 640px;
@@ -319,4 +318,18 @@
     padding: 40px 0 0 0;
     margin: 50px 0 0 0!important;
     border-top: 2px solid #f1f5f9;
+}
+
+.st-form-dm .ui.grid.st-form_item {
+    height: 231px;
+
+    .column.item_label {
+        width: 300px;
+    }
+}
+
+.st-form_item:after {
+    content: "";
+    display: block;
+    clear: both;
 }

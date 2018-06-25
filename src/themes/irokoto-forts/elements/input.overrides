@@ -93,7 +93,7 @@
 }
 
 .st-form-dm .item_textarea textarea {
-    width: 460px;
+    width: 460px!important;
     height: 195px;
 }
 
