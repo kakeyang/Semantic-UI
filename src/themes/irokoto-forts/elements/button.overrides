@@ -12,6 +12,7 @@
   font-weight: 500;
   border-radius: 25px;
   background-image: none;
+  box-shadow: 0 2px 4px #c8cfd5;
 }
 
 .adm-contents-inner .ui.form .ui.button {
