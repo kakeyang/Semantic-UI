@@ -269,6 +269,10 @@
 .list-extractions {
     text-align: center !important;
 
+    .st-table_row-label th {
+        font-weight: 500;
+    }
+
     .st-table_row_column-campaign-extraction-date {
         width: 90px;
     }
