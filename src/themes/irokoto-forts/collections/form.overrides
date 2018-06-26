@@ -234,6 +234,10 @@
         color: #616e7a;
     }
 
+    .item_radio_item_label.checked:before {
+        opacity: 1;
+    }
+
     .item_radio_item_label:before {
         content: "";
         display: block;
@@ -243,7 +247,7 @@
         border-radius: 4px;
         position: absolute;
         top: 50%;
-        left: 6.5px;
+        left: 5.5px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
