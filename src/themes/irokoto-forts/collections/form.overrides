@@ -302,6 +302,10 @@
         font-size: 1.4rem;
     }
 
+    .lh-4 {
+        line-height: 4rem;
+    }
+
     .item_radio input[type="radio"] {
         margin: 0 5px 0 0;
         display: none;

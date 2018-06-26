@@ -135,3 +135,18 @@
     border: 1px solid #86b1dc;
     outline-width: 0px;
 }
+
+.st-form-dm {
+    .item_select-short.item_time>div {
+        display: inline-block;
+    }
+
+    .item_select-short.item_time .date-picker-input {
+        width: 170px;
+        height: 47px;
+    }
+
+    .dl-flex {
+        display: inline-flex;
+    }
+}
