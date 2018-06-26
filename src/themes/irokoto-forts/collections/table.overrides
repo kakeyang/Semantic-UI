@@ -168,26 +168,31 @@
     text-align: center!important;
 }
 
-.st-table-info {
-    font-size: 15px!important;
-    font-size: 1.5rem!important;
+.st-table-info, .st-table-extractions {
+  font-size: 15px!important;
+  font-size: 1.5rem!important;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  .st-table_row-label th {
+    padding: 5px 0;
+    color: #fff;
+    background-color: #86b1dc;
+    text-align: center;
+  }
 
-    .st-table_row-label th {
-        padding: 5px 0;
-        color: #fff;
-        background-color: #86b1dc;
-        text-align: center;
-    }
+  .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
+    padding: 20px 0 20px 20px !important;
+    width: 400px;
+    text-align: left;
+  }
 
-    .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
-        padding: 20px 0 20px 20px !important;
-        width: 400px;
-        text-align: left;
-    }
-
-    .st-table_row_column-dm-desc-start, .st-table_row_column-dm-desc-end {
-        width: 200px;
-    }
+  .st-table_row_column-dm-desc-start, .st-table_row_column-dm-desc-end {
+    width: 200px;
+  }
+  th, td {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+  }
 }
 
 .st-table_row {
@@ -320,7 +325,10 @@
     }
 
     .st-table_row_column-campaign-extraction-list {
-        padding: 7px 0 7px 7px !important;
+        padding-top: 7px !important;
+        padding-left: 7px !important;
+        padding-right: 0px !important;
+        padding-bottom: 7px !important;
         width: 480px;
         text-align: center;
     }
