@@ -149,9 +149,3 @@
         clear: both;
     }
 }
-
-.st-form-report .st-form_item .item_label {
-    margin: 16px 0 0 0;
-    width: 300px;
-    float: left;
-}
