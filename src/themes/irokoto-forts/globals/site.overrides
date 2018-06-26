@@ -589,3 +589,7 @@ body {
     letter-spacing: 0.025em;
     line-height: 1.8;
 }
+
+.ui.dimmer.modals {
+    background-color: rgba(0, 0, 0, 0.3);
+}
