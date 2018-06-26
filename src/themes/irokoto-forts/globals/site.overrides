@@ -558,3 +558,26 @@ body {
 .pb90 {
   padding-bottom: 90px;
 }
+
+.sw-txt-mt25 {
+    margin: 25px 0 0 0;
+}
+
+.sw-txt-align-right {
+    text-align: right;
+}
+
+.sw-txt-middle {
+    font-weight: 500;
+}
+
+.sw-txt-14 {
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.sw-txt {
+    letter-spacing: 0.025em;
+    line-height: 1.8;
+}
