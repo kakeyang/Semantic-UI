@@ -418,6 +418,14 @@ body {
   margin-top: 4px !important;
 }
 
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mw280 {
+  min-width: 280px !important;
+}
+
 .user-st-header {
   padding: 35px 40px 30px 40px;
   width: 100%;
