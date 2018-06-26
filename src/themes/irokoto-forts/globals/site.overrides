@@ -447,6 +447,10 @@ body {
     left: 0;
   }
 
+  .item_anchor:hover {
+    background: none !important;
+  }
+
   .icon-header-1:after {
     background-image: url(../images/icn_header-campaign.png);
   }
@@ -552,4 +556,8 @@ body {
 
 .pd20 {
   padding: 20px 0 !important;
+}
+
+.pb90 {
+  padding-bottom: 90px;
 }

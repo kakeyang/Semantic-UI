@@ -171,6 +171,23 @@
 .st-table-info {
     font-size: 15px!important;
     font-size: 1.5rem!important;
+
+    .st-table_row-label th {
+        padding: 5px 0;
+        color: #fff;
+        background-color: #86b1dc;
+        text-align: center;
+    }
+
+    .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
+        padding: 20px 0 20px 20px !important;
+        width: 400px;
+        text-align: left;
+    }
+
+    .st-table_row_column-dm-desc-start, .st-table_row_column-dm-desc-end {
+        width: 200px;
+    }
 }
 
 .st-table_row {
@@ -271,4 +288,10 @@
 
 .ui.table.st-table-dm {
   border: 0!important;
+}
+
+.st-table-info-title {
+    width: 1050px !important;
+    height: 48px;
+    cursor: pointer;
 }
