@@ -424,7 +424,6 @@ body {
   min-width: 1200px;
   background-color: #fff;
   height: 101px;
-  margin-bottom: 40px !important;
   .item_anchor {
     padding: 0 0 0 35px !important;
     margin: 0 0 10px 45px !important;
@@ -549,4 +548,8 @@ body {
 .ui.dashboard_user .adm-contents-inner-top {
     padding: 40px 0 60px 0;
     background-color: transparent;
+}
+
+.pd20 {
+  padding: 20px 0 !important;
 }
