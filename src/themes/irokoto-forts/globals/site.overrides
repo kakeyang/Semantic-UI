@@ -573,3 +573,7 @@ body {
 .pb90 {
   padding-bottom: 90px;
 }
+
+.txt-left {
+    text-align: left;
+}
