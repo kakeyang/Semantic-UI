@@ -601,3 +601,7 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+.mr-top-20 {
+    margin-top: 20px;
+}
