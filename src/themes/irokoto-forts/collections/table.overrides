@@ -303,9 +303,10 @@
     }
 
     td.st-table_row_column-campaign-extraction-list {
-        padding: 20px 0 20px 20px !important;
+        padding: 30px 0 30px 20px !important;
         width: 480px;
         text-align: left;
+        line-height: 1.5;
     }
 
     .st-table_row_column-campaign-extraction-date {
