@@ -26,6 +26,18 @@
   background-image: none;
 }
 
+.ui.buttonBlue.button, .ui.buttonBlue.button .button {
+    background-color: #7ba6d1;
+    border: 1px solid #7ba6d1;
+    box-shadow: 0 2px 3px #c8cfd5;
+    background-image: none;
+}
+
+.ui.buttonBlue.button:hover, .ui.buttonBlue.button .button:hover {
+    color: #7ba6d1;
+    background-color: #fff;
+}
+
 .ui.secondary.button:hover, .ui.secondary.buttons .button:hover {
   background-color: #fff;
   color: #6d7984;
@@ -66,4 +78,19 @@
   width: 280px !important;
   padding-top: 14px !important;
   padding-bottom: 15px !important;
+}
+
+.sw-btn-center-mt40 {
+    margin: 40px auto 0!important;
+}
+
+.sw-btn-dm-400 {
+    padding: 14px 0 15px!important;
+    width: 400px!important;
+    font-size: 14px!important;
+    font-size: 14px!important;
+    font-size: 1.4rem!important;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 22px!important;
 }

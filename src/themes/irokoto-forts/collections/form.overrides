@@ -149,3 +149,225 @@
         clear: both;
     }
 }
+
+.st-form {
+    color: #616e7a;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+
+    .st-form_item {
+        margin: 0;
+
+        .item_label {
+            margin: 16px 0 0 0;
+            width: 300px;
+            float: left;
+            text-align: left;
+        }
+    }
+
+    .st-form_item + .st-form_item {
+        margin: 40px 0 0 0;
+    }
+
+    .item_select select {
+        padding: 12px 12px 13px 12px;
+        color: #6d7984;
+        font-size: 14px;
+        font-size: 14px;
+        font-size: 1.4rem;
+        font-family: "Noto Sans Japanese";
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        background-color: #fff;
+        border: 1px solid #dde3e9;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+    }
+
+    .item_select {
+        position: relative;
+    }
+
+    .item_select-long:after {
+        top: 20px;
+        right: 20px;
+    }
+
+    .item_select:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 6px 0 6px;
+        border-color: #6d7984 transparent transparent transparent;
+        position: absolute;
+    }
+
+    .item_radio {
+        font-size: 0;
+    }
+
+    .item_radio_item {
+        padding: 0 0 15px 0;
+        margin: 0 50px 0 0;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+
+    .item_radio_item_label {
+        padding: 0 0 0 28px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        cursor: pointer;
+        background-color: #fff;
+        color: #616e7a;
+    }
+
+    .item_radio_item_label.checked:before {
+        opacity: 1;
+    }
+
+    .item_radio_item_label:before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #eb5871;
+        border-radius: 4px;
+        position: absolute;
+        top: 50%;
+        left: 5.5px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: 0.2s;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        z-index: 2;
+    }
+
+    .item_radio_item_label:after {
+        content: "";
+        display: block;
+        width: 19px;
+        height: 19px;
+        background-color: #fff;
+        border: 1px solid #bfbfbf;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: 0.2s;
+        z-index: 1;
+    }
+
+    .item_select-short select {
+        width: 170px;
+    }
+
+    .item_select-short:after {
+        top: 20px;
+        right: 145px;
+    }
+
+    .st-form .item_radio_item_label {
+        padding: 0 0 0 28px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .item_radio_item {
+        padding: 0 0 15px 0;
+        margin: 0 50px 0 0;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+
+    .lh-4 {
+        line-height: 4rem;
+    }
+
+    .item_radio input[type="radio"] {
+        margin: 0 5px 0 0;
+        display: none;
+    }
+}
+
+.st-form-dm .item_input {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.st-form-dm .item_input .ui.input input[type="text"],
+.st-form-dm .item_input input[type="password"],
+.st-form .item_select-long select {
+    width: 640px;
+}
+
+.st-form .item_input input[type="text"], .st-form .item_input input[type="password"], .st-form .item_input input[type="number"] {
+    padding: 12px 12px 13px 12px;
+    color: #6d7984;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: "Noto Sans Japanese";
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    letter-spacing: 0.025em;
+    border: 1px solid #dde3e9;
+    border-radius: 4px;
+    outline: none;
+}
+
+.st-form_item .item_input input {
+    margin: 0px 10px 0 0px;
+}
+
+.st-form-dm .item_select {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.st-form-dm-bottom {
+    padding: 40px 0 0 0;
+    margin: 50px 0 0 0!important;
+    border-top: 2px solid #f1f5f9;
+}
+
+.st-form-dm .ui.grid.st-form_item {
+    height: 231px;
+
+    .column.item_label {
+        width: 300px;
+    }
+
+    .item_radio {
+        margin: 0 0 0 20px;
+        float: left;
+    }
+}
+
+.st-form_item:after {
+    content: "";
+    display: block;
+    clear: both;
+}

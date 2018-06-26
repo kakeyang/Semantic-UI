@@ -190,6 +190,13 @@
     }
 }
 
+.ui.container.directMessage-form {
+    padding: 40px 30px 60px 30px;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+}
+
 .adm-contents-inner-dm-report {
     margin: 40px auto 0 auto !important;
     padding: 60px 30px 60px 30px;
@@ -228,17 +235,9 @@
         }
     }
 
-    .sw-txt-red {
-        color: #eb5871;
-    }
-
     .sw-txt-14 {
         font-size: 14px;
         font-size: 1.4rem;
-    }
-
-    .sw-txt-middle {
-        font-weight: 500;
     }
 
     .sw-txt-container-mt60 {
@@ -279,4 +278,20 @@
             }
         }
     }
+}
+
+.sw-txt-middle {
+    font-weight: 500;
+}
+
+.sw-txt-container-mt40 {
+    margin: 40px auto 0;
+}
+
+.sw-txt-container-640 {
+    width: 640px;
+}
+
+.sw-txt-red {
+    color: #eb5871;
 }

@@ -87,3 +87,66 @@
   top: 7.5px;
   left: -10px;
 }
+
+.st-form-dm .item_textarea textarea.mt-10 {
+    margin: 10px 0 0 0;
+}
+
+.st-form-dm .item_textarea textarea {
+    width: 460px!important;
+    height: 195px;
+}
+
+.st-form .item_textarea textarea {
+    padding: 12px 12px 13px 12px;
+    color: #6d7984;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: "Noto Sans Japanese";
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    border: 1px solid #dde3e9;
+    border-radius: 4px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.st-form-dm .item_textarea {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.size-div {
+    box-sizing: border-box;
+    height: 195px;
+    width: 460px;
+    border: 1px solid rgba(34,36,38,.15);
+    overflow: auto;
+    margin-top: 4px;
+    padding: 11px 14px;
+    text-align: left;
+}
+
+.ui.form .size-div:focus {
+    border: 1px solid #86b1dc;
+    outline-width: 0px;
+}
+
+.st-form-dm {
+    .item_select-short.item_time>div {
+        display: inline-block;
+    }
+
+    .item_select-short.item_time .date-picker-input {
+        width: 170px;
+        height: 47px;
+    }
+
+    .dl-flex {
+        display: inline-flex;
+    }
+}
