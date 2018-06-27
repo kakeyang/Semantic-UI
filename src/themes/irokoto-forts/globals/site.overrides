@@ -563,6 +563,21 @@ body {
     background-color: transparent;
 }
 
+.sw-txt-14 {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.sw-txt {
+    letter-spacing: 0.025em;
+    line-height: 1.8;
+}
+
+.st-form-dm .item_radio {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
 .pb90 {
   padding-bottom: 90px;
 }
@@ -598,4 +613,22 @@ body {
     font-size: 26px;
     top: -3.5rem;
     right: -0.4rem;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.size-emoji {
+    width: 18px;
+}
+
+.sw-txt-12 {
+    font-size: 12px;
+    font-size: 12px;
+    font-size: 1.2rem;
 }
