@@ -593,3 +593,11 @@ body {
     font-size: 12px;
     font-size: 1.2rem;
 }
+
+.mt47 {
+  margin-top: 47px !important;
+}
+
+.dp-block {
+  display: block;
+}
