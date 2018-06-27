@@ -371,3 +371,17 @@
     display: block;
     clear: both;
 }
+
+.ui.form.st-form-account {
+    margin: 0 auto;
+    width: 480px;
+    text-align: left;
+}
+
+.user-acocunt-form .ui.form.st-form-account .ui.input span {
+    width: 320px;
+}
+
+.user-acocunt-form .ui.form.st-form-account-top .ui.input span {
+    width: 250px;
+}

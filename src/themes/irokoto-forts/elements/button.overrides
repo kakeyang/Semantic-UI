@@ -94,3 +94,18 @@
     line-height: 1;
     border-radius: 22px!important;
 }
+
+.adm-contents-inner-table.sw-btn-l, .ui.button.sw-btn-l {
+    padding: 14px 0 15px;
+    width: 280px;
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 22px;
+}
+
+.sw-btn-center-mt30 {
+    margin: 30px auto 0!important;
+}
