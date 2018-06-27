@@ -367,3 +367,7 @@
     display: block;
     clear: both;
 }
+
+.react-datepicker__time-list {
+    padding: 0px;
+}
