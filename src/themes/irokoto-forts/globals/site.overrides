@@ -591,3 +591,7 @@ body {
     font-size: 12px;
     font-size: 1.2rem;
 }
+
+.adm-contents_common_date {
+  line-height: 35px;
+}
