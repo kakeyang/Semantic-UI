@@ -267,6 +267,36 @@
         border-radius: 20px;
         display: block;
     }
+
+    .st-table_row_column-report-title {
+      padding: 7px 0 7px 7px !important;
+      width: 765px;
+      text-align: left;
+      height: 37px;
+      font: inherit;
+      font-size: 107%;
+    }
+
+    .st-font-report-title {
+      padding: 20px 0 20px 20px !important
+    }
+
+    .st-table_row_column-report-start {
+      width: 250px;
+      font: inherit;
+      font-size: 107%;
+    }
+
+    .st-table_row_column-report-confirm {
+      width: 185px;
+      text-align: center !important;
+      font: inherit;
+      font-size: 107%;
+    }
+}
+
+.ui.table.st-table-dm {
+  border: 0!important;
 }
 
 .st-table-info-title {
