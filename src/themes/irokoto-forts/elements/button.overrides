@@ -81,6 +81,19 @@
   padding-bottom: 15px !important;
 }
 
+.ui.button.sw-btn-report {
+  padding: 11px 0 12px;
+  width: 140px;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px #c8cfd5;
+  letter-spacing: 0.05em;
+}
+
 .list-extractions {
     .sw-btn-blue:hover {
         color: #7ba6d1;
@@ -151,4 +164,30 @@
     font-weight: 500;
     line-height: 1;
     border-radius: 22px!important;
+}
+
+.sw-btn-container {
+    margin: 50px -35px 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sw-btn-black {
+  width: 200px !important;
+  margin-right: 35px !important;
+}
+
+.sw-btn-green {
+  background-color: #43bd8d !important;
+  border: 1px solid #43bd8d !important;
+  box-shadow: 0 2px 3px #c8cfd5!important;
+  width: 345px !important;
+  height: 52px !important;
+  margin-right: 35px !important;
+  letter-spacing: 0.05em;
+}
+
+.sw-btn-green:hover {
+    color: #43bd8d !important;
+    background-color: #fff !important;
 }
