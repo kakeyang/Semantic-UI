@@ -96,11 +96,16 @@
         position: relative;
     }
 
-    .st-table_row-normal:hover .st-table_row_column-number {
+    .st-table_row-normal:hover .st-table_row_column-number,
+    .st-table_row-normal:hover .st-table_row_column-campaign-extraction-list,
+    .st-table_row-normal:hover .st-table_row_column-dm-title {
         border-left: 1px solid #86b1dc;
     }
 
     .st-table_row-normal:hover .st-table_row_column-edit, .st-table_row-normal:hover .st-hv-right {
+    .st-table_row-normal:hover .st-table_row_column-edit,
+    .st-table_row-normal:hover .st-table_row_column-campaign-extraction-csv,
+    .st-table_row-normal:hover .st-table_row_column-dm-report {
         border-right: 1px solid #86b1dc;
     }
 
@@ -168,26 +173,31 @@
     text-align: center!important;
 }
 
-.st-table-info {
-    font-size: 15px!important;
-    font-size: 1.5rem!important;
+.st-table-info, .st-table-extractions {
+  font-size: 15px!important;
+  font-size: 1.5rem!important;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  .st-table_row-label th {
+    padding: 5px 0;
+    color: #fff;
+    background-color: #86b1dc;
+    text-align: center;
+  }
 
-    .st-table_row-label th {
-        padding: 5px 0;
-        color: #fff;
-        background-color: #86b1dc;
-        text-align: center;
-    }
+  .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
+    padding: 20px 0 20px 20px !important;
+    width: 400px;
+    text-align: left;
+  }
 
-    .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
-        padding: 20px 0 20px 20px !important;
-        width: 400px;
-        text-align: left;
-    }
-
-    .st-table_row_column-dm-desc-start, .st-table_row_column-dm-desc-end {
-        width: 200px;
-    }
+  .st-table_row_column-dm-desc-start, .st-table_row_column-dm-desc-end {
+    width: 200px;
+  }
+  th, td {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+  }
 }
 
 .st-table_row {
@@ -258,10 +268,108 @@
         border-radius: 20px;
         display: block;
     }
+
+    .st-table_row_column-report-title {
+      padding: 7px 0 7px 7px !important;
+      width: 765px;
+      text-align: left;
+      height: 37px;
+      font: inherit;
+      font-size: 107%;
+    }
+
+    .st-font-report-title {
+      padding: 20px 0 20px 20px !important
+    }
+
+    .st-table_row_column-report-start {
+      width: 250px;
+      font: inherit;
+      font-size: 107%;
+    }
+
+    .st-table_row_column-report-confirm {
+      width: 185px;
+      text-align: center !important;
+      font: inherit;
+      font-size: 107%;
+    }
+}
+
+.ui.table.st-table-dm {
+  border: 0!important;
 }
 
 .st-table-info-title {
     width: 1050px !important;
     height: 48px;
     cursor: pointer;
+}
+
+.list-extractions {
+    text-align: center !important;
+
+    .st-table_row-label th {
+        font-weight: 500;
+    }
+
+    .st-table_row_column-campaign-extraction-date {
+        width: 90px;
+    }
+
+    .st-table_row_column-campaign-extraction-number {
+        width: 90px;
+    }
+
+    .st-table_row_column-campaign-extraction-delete {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-confirm {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-csv {
+        width: 180px;
+    }
+
+    td.st-table_row_column-campaign-extraction-list {
+        padding: 30px 0 30px 20px !important;
+        width: 480px;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .st-table_row_column-campaign-extraction-date {
+        width: 90px;
+    }
+
+    .st-table_row_column-campaign-extraction-number {
+        width: 90px;
+    }
+
+    .st-table_row_column-campaign-extraction-delete {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-delete {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-confirm {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-csv {
+        width: 180px;
+    }
+
+    .st-table_row_column-campaign-extraction-list {
+        padding-top: 7px !important;
+        padding-left: 7px !important;
+        padding-right: 0px !important;
+        padding-bottom: 7px !important;
+        width: 480px;
+        text-align: center;
+    }
 }

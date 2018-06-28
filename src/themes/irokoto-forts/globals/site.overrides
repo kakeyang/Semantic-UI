@@ -418,13 +418,20 @@ body {
   margin-top: 4px !important;
 }
 
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mw280 {
+  min-width: 280px !important;
+}
+
 .user-st-header {
   padding: 35px 40px 30px 40px;
   width: 100%;
   min-width: 1200px;
   background-color: #fff;
   height: 101px;
-
   .item_anchor {
     padding: 0 0 0 35px !important;
     margin: 0 0 10px 45px !important;
@@ -555,6 +562,9 @@ body {
     background-color: transparent;
 }
 
+.pd20 {
+  padding: 20px 0 !important;
+}
 .sw-txt-14 {
     font-size: 14px;
     font-size: 1.4rem;
@@ -572,6 +582,39 @@ body {
 
 .pb90 {
   padding-bottom: 90px;
+}
+
+.sw-txt-mt25 {
+    margin: 25px 0 0 0;
+}
+
+.sw-txt-align-right {
+    text-align: right;
+}
+
+.sw-txt-middle {
+    font-weight: 500;
+}
+
+.sw-txt-14 {
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.sw-txt {
+    letter-spacing: 0.025em;
+    line-height: 1.8;
+}
+
+.ui.dimmer.modals {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ui.modal.extraction-delete-modal>.close {
+    font-size: 26px;
+    top: -3.5rem;
+    right: -0.4rem;
 }
 
 .txt-left {
@@ -594,4 +637,26 @@ body {
 
 .adm-contents_common_date {
   line-height: 35px;
+}
+
+.mt47 {
+  margin-top: 47px !important;
+}
+
+.dp-block {
+  display: block;
+}
+
+.mr-right-35 {
+  margin-right: 35px!important;
+}
+
+.sw-btn-container {
+  margin: 50px -35px 0 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mr-top-20 {
+  margin-top: 20px;
 }
