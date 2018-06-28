@@ -362,10 +362,36 @@
     }
 }
 
+
 .st-form_item:after {
     content: "";
     display: block;
     clear: both;
+}
+
+.st-item-report-form {
+    margin-left: 0px;
+    margin-top: 16px;
+    float: left;
+    text-align: left;
+    display: -webkit-box;
+}
+
+.st-item-report-form .react-datepicker-wrapper .react-datepicker__input-container > input {
+    width: 175px;
+    height: 47px;
+    text-align: center;
+}
+
+.st-item-report-form .st-date-report-form {
+    margin-top: -16px !important;
+}
+
+.sw-text {
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .react-datepicker__time-list {
