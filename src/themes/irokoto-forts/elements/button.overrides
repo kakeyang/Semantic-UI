@@ -206,3 +206,7 @@
     color: #43bd8d !important;
     background-color: #fff !important;
 }
+
+.ui.button.sw-btn-center-mt20 {
+    margin: 20px auto 0;
+}

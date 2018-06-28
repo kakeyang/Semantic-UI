@@ -410,3 +410,27 @@
 .react-datepicker__time-list {
     padding: 0px;
 }
+
+.st-form-contact {
+    margin: 30px auto 0!important;
+    width: 720px;
+    text-align: left;
+
+    .inline.field .labelInquiry span {
+        width: 170px;
+    }
+
+    .inline.field .labelInquiry .ui.input {
+        float: left;
+    }
+
+    .inline.field .labelInquiry .ui.input p {
+        margin-top: 15px;
+        width: 540px;
+    }
+
+    .inline.field .labelInquiry .item_error {
+        width: 540px;
+    }
+
+}

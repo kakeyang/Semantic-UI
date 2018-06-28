@@ -179,7 +179,7 @@
     }
 }
 
-.ui.container.directMessage-form, .ui.container.user-acocunt-form {
+.ui.container.directMessage-form, .ui.container.user-acocunt-form, .ui.container.contact-form {
     padding: 40px 30px 60px 30px;
     margin: 0 auto;
     width: 1200px;
