@@ -295,3 +295,14 @@
 .sw-txt-red {
     color: #eb5871;
 }
+
+
+.sw-subttl-1 {
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.sw-subttl-1:after {
+    top: 0px !important;
+}

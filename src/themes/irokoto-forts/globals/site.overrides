@@ -591,3 +591,30 @@ body {
     font-size: 12px;
     font-size: 1.2rem;
 }
+
+.mt100 {
+  margin-top: 100px !important;
+}
+
+.pt0 {
+  padding-top: 0px !important;
+}
+
+.pb0 {
+  padding-bottom: 0px !important;
+}
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.st-error-create-cb {
+  color: #ff0000;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
