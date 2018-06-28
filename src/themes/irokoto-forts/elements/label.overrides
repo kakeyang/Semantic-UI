@@ -40,3 +40,11 @@
     position: absolute;
     left: 0;
 }
+
+.irokoto-bg {
+  background-color: @irokoto !important;
+}
+
+.not-ok {
+  background-color: #676767 !important;
+}
