@@ -210,10 +210,6 @@
         position: absolute;
     }
 
-    .item_radio {
-        font-size: 0;
-    }
-
     .item_radio_item {
         padding: 0 0 15px 0;
         margin: 0 50px 0 0;
@@ -396,4 +392,8 @@
     font-weight: 300;
     margin-right: -10px;
     margin-left: -10px;
+}
+
+.react-datepicker__time-list {
+    padding: 0px;
 }
