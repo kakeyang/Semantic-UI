@@ -33,7 +33,8 @@
     background-image: none;
 }
 
-.ui.buttonBlue.button:hover, .ui.buttonBlue.button .button:hover {
+.ui.buttonBlue.button:hover, .ui.buttonBlue.button .button:hover,
+.ui.buttonBlue.button:focus, .ui.buttonBlue.button .button:focus{
     color: #7ba6d1;
     background-color: #fff;
 }
