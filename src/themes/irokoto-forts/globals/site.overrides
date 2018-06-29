@@ -663,6 +663,7 @@ body {
 
 .sw-txt-mt60 {
     margin: 60px 0 0 0!important;
+}
 
 }
 
@@ -686,4 +687,8 @@ body {
 
 .mr-top-20 {
   margin-top: 20px;
+}
+
+.sw-txt-mt30 {
+    margin: 30px 0 0 0;
 }
