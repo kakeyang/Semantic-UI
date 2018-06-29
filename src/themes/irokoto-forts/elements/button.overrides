@@ -95,16 +95,6 @@
 }
 
 .list-extractions {
-    .sw-btn-blue:hover {
-        color: #7ba6d1;
-        background-color: #fff;
-        border: 1px solid #7ba6d1;
-    }
-
-    .sw-btn-blue:focus {
-        color: #7ba6d1;
-    }
-
     .sw-btn-center {
         margin: 0 auto;
     }
@@ -118,12 +108,6 @@
         font-weight: 500;
         line-height: 1;
         border-radius: 20px;
-    }
-
-    .sw-btn-blue {
-        background-color: #7ba6d1;
-        border: 1px solid #7ba6d1;
-        box-shadow: 0 2px 3px #c8cfd5;
     }
 
     .sw-btn {
@@ -164,6 +148,37 @@
     font-weight: 500;
     line-height: 1;
     border-radius: 22px!important;
+}
+
+.adm-contents-inner-table.sw-btn-l, .ui.button.sw-btn-l {
+    padding: 14px 0 15px;
+    width: 280px;
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 22px;
+}
+
+.sw-btn-center-mt30 {
+    margin: 30px auto 0!important;
+}
+
+.sw-btn-blue:hover {
+    color: #7ba6d1!important;
+    background-color: #fff!important;
+    border: 1px solid #7ba6d1!important ;
+}
+
+.sw-btn-blue:focus {
+    color: #7ba6d1!important;
+}
+
+.sw-btn-blue {
+    background-color: #7ba6d1!important;
+    border: 1px solid #7ba6d1!important;
+    box-shadow: 0 2px 3px #c8cfd5;
 }
 
 .sw-btn-container {

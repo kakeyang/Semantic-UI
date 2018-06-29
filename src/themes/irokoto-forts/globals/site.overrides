@@ -639,6 +639,33 @@ body {
   line-height: 35px;
 }
 
+.sw-txt-mt80 {
+    margin: 80px 0 0 0;
+}
+
+.sw-txt-bold-700 {
+    font-weight: 700;
+}
+
+.sw-txt-16 {
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.sw-btn-container-30 {
+    margin: 30px -35px 0 0;
+}
+
+.sw-txt-mt60 {
+    margin: 60px 0 0 0!important;
+
+}
+
 .mt47 {
   margin-top: 47px !important;
 }
