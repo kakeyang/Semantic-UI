@@ -686,6 +686,11 @@ body {
 
 .sw-txt-mt60 {
     margin: 60px 0 0 0!important;
+<<<<<<< HEAD
+=======
+}
+
+>>>>>>> e1554e7b112f92391cd3b4520f7ea0ec143d2697
 }
 
 .mt47 {
@@ -775,4 +780,8 @@ body {
 
 .pt30 {
   padding-top: 30px !important;
+}
+
+.sw-txt-mt30 {
+    margin: 30px 0 0 0;
 }

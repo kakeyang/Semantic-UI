@@ -212,3 +212,6 @@
   letter-spacing: 0.05em;
   margin-right: 0px !important;
 }
+.ui.button.sw-btn-center-mt20 {
+    margin: 20px auto 0;
+}
