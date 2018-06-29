@@ -373,7 +373,3 @@
         text-align: center;
     }
 }
-
-.st-table_row-normal:hover .st-hv-right {
-    border-right: 1px solid #86b1dc;
-}
