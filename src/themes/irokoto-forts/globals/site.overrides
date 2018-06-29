@@ -635,6 +635,10 @@ body {
     font-size: 1.2rem;
 }
 
+.adm-contents_common_date {
+  line-height: 35px;
+}
+
 .sw-txt-mt80 {
     margin: 80px 0 0 0;
 }
@@ -660,6 +664,8 @@ body {
 .sw-txt-mt60 {
     margin: 60px 0 0 0!important;
 
+}
+
 .mt47 {
   margin-top: 47px !important;
 }
@@ -669,15 +675,15 @@ body {
 }
 
 .mr-right-35 {
-    margin-right: 35px!important;
+  margin-right: 35px!important;
 }
 
 .sw-btn-container {
-    margin: 50px -35px 0 0;
-    text-align: center;
-    vertical-align: middle;
+  margin: 50px -35px 0 0;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .mr-top-20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
