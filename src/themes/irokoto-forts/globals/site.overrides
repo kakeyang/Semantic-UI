@@ -659,6 +659,7 @@ body {
 
 .sw-txt-mt60 {
     margin: 60px 0 0 0!important;
+}
 
 .mt47 {
   margin-top: 47px !important;
@@ -680,4 +681,17 @@ body {
 
 .mr-top-20 {
     margin-top: 20px;
+}
+
+.sw-txt-ib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.st-form-retweet .item_select-end {
+    margin: 0 0 0 10px;
+}
+
+.mr-0 {
+    margin: 0;
 }

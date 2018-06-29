@@ -410,3 +410,19 @@
 .react-datepicker__time-list {
     padding: 0px;
 }
+
+.st-form-retweet .st-form_item {
+    display: inline-block;
+}
+
+.st-form-retweet .st-form_item + .st-form_item {
+    margin: 0;
+}
+
+.st-form-retweet .item_select-start {
+    margin: 0 10px 0 0;
+}
+
+.st-form-retweet .item_select-short {
+    display: inline-block;
+}

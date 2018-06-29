@@ -179,7 +179,7 @@
     }
 }
 
-.ui.container.directMessage-form, .ui.container.user-acocunt-form {
+.ui.container.directMessage-form, .ui.container.user-acocunt-form, .ui.container.adm-contents-inner-liquid {
     padding: 40px 30px 60px 30px;
     margin: 0 auto;
     width: 1200px;
@@ -283,6 +283,76 @@
 
 .sw-txt-red {
     color: #eb5871;
+}
+
+.adm-contents-liquid {
+    padding: 40px 40px 90px 40px;
+    min-width: 1280px!important;
+}
+
+.sw-ttl-liquid, .adm-contents-inner-liquid {
+    width: 100%;
+}
+
+.adm-contents-inner-liquid {
+    .adm-contents_retweet .adm-contents_retweet_report {
+        padding: 0 0 40px 0;
+        font-size: 0;
+        text-align: left;
+
+        .adm-contents_retweet_report_item {
+            margin: 0 50px 0 0;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 14px;
+            font-size: 14px;
+            font-size: 1.4rem;
+
+            .item_title-blue {
+                background-color: #87b2dc;
+            }
+
+            .item_count-follow {
+                font-size: 38px;
+                font-size: 38px;
+                font-size: 3.8rem;
+                color: #eb5871;
+            }
+
+            .item_count {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 36px;
+                font-size: 36px;
+                font-size: 3.6rem;
+                letter-spacing: 0.025em;
+                font-weight: 500;
+            }
+
+            .item_title {
+                padding: 7px 14px;
+                margin: 2px 20px 0 0;
+                display: inline-block;
+                vertical-align: middle;
+                color: #fff;
+                border-radius: 5px;
+                font-size: 14px;
+                font-size: 14px;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .adm-contents_retweet_refine {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    .adm-contents_retweet .adm-contents_retweet_refine {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #d2d2d2;
+    }
 }
 
 

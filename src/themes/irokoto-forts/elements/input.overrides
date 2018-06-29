@@ -146,10 +146,6 @@
         height: 47px;
     }
 
-    .dl-flex {
-        display: inline-flex;
-    }
-
     .st-form_item .item_text {
         margin: 8px 0 0 0;
         width: 640px;
@@ -161,4 +157,20 @@
         line-height: 1.8;
         float: left;
     }
+}
+
+.dl-flex, .st-form-dm .dl-flex, .st-form-retweet .dl-flex {
+    display: inline-flex;
+}
+
+.lh-2 {
+    line-height: 2rem;
+}
+
+.lh-3 {
+    line-height: 3rem;
+}
+
+.vl-middle {
+    vertical-align: middle;
 }
