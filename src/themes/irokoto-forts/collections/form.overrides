@@ -210,10 +210,6 @@
         position: absolute;
     }
 
-    .item_radio {
-        font-size: 0;
-    }
-
     .item_radio_item {
         padding: 0 0 15px 0;
         margin: 0 50px 0 0;
@@ -366,9 +362,51 @@
     }
 }
 
-
 .st-form_item:after {
     content: "";
     display: block;
     clear: both;
+}
+
+.ui.form.st-form-account {
+    margin: 0 auto;
+    width: 480px;
+    text-align: left;
+}
+
+.user-acocunt-form .ui.form.st-form-account .ui.input span {
+    width: 320px;
+}
+
+.user-acocunt-form .ui.form.st-form-account-top .ui.input span {
+    width: 250px;
+}
+
+.st-item-report-form {
+    margin-left: 0px;
+    margin-top: 16px;
+    float: left;
+    text-align: left;
+    display: -webkit-box;
+}
+
+.st-item-report-form .react-datepicker-wrapper .react-datepicker__input-container > input {
+    width: 175px;
+    height: 47px;
+    text-align: center;
+}
+
+.st-item-report-form .st-date-report-form {
+    margin-top: -16px !important;
+}
+
+.sw-text {
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.react-datepicker__time-list {
+    padding: 0px;
 }

@@ -177,20 +177,9 @@
     .sw-btn-red {
         box-shadow: 0 2px 3px #c8cfd5;
     }
-
-    .sw-btn-l {
-        padding: 14px 0 15px;
-        width: 280px;
-        font-size: 16px;
-        font-size: 16px;
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1;
-        border-radius: 22px;
-    }
 }
 
-.ui.container.directMessage-form {
+.ui.container.directMessage-form, .ui.container.user-acocunt-form {
     padding: 40px 30px 60px 30px;
     margin: 0 auto;
     width: 1200px;
@@ -267,7 +256,6 @@
         .adm-contents_report_item {
             font-size: 0;
             border-bottom: 1px solid #cccccc;
-
             .item_name, .item_status {
                 padding: 10px 35px;
                 width: 350px;
@@ -296,7 +284,6 @@
     color: #eb5871;
 }
 
-
 .sw-subttl-1 {
     font-size: 16px;
     font-size: 16px;
@@ -306,3 +293,4 @@
 .sw-subttl-1:after {
     top: 0px !important;
 }
+
