@@ -256,7 +256,6 @@
         .adm-contents_report_item {
             font-size: 0;
             border-bottom: 1px solid #cccccc;
-
             .item_name, .item_status {
                 padding: 10px 35px;
                 width: 350px;
@@ -285,4 +284,13 @@
     color: #eb5871;
 }
 
+.sw-subttl-1 {
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.sw-subttl-1:after {
+    top: 0px !important;
+}
 
