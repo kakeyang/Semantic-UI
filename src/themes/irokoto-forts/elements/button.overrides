@@ -242,6 +242,10 @@
     margin: 1px 0 0 0!important;
 }
 
+.ui.button.sw-btn-mt04 {
+    margin: 4px 0 0 0!important;
+}
+
 .ui.button.sw-btn-retweet-200 {
     padding: 11px 0 12px;
     width: 200px;
