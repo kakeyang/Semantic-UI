@@ -722,3 +722,54 @@ body {
 .adm-contents_retweet_list_top {
     padding: 40px 0 35px 0;
 }
+
+.w640 {
+  width: 640px;
+}
+
+.fs16 {
+  font-size: 16px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.sw-subttl-ex {
+  padding: 0 0 0 13px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  position: relative;
+}
+
+.sw-subttl-ex:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #86b1dc;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+
+.mt45 {
+  margin-top: 45px !important;
+}
+
+.mt50 {
+  margin-top: 50px !important;
+}
+
+.w535 {
+  width: 535px !important;
+}
+
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+.sw-txt-color {
+  color: rgba(0,0,0,.87) !important;
+}

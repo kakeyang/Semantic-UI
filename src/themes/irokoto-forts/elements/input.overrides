@@ -189,3 +189,10 @@
         min-width: 170px;
     }
 }
+
+.item_input_cr_ex input[type="text"] {
+  margin: 0 !important;
+  width: 535px !important;
+  color: #333333 !important;
+  padding: 12px 12px 13px 12px !important;
+}

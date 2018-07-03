@@ -80,7 +80,7 @@
 }
 
 .ui.modal > .content.st-modal_contents {
-  padding: 50px 40px 50px 40px;
+  padding: 50px 40px 50px 40px !important;
   width: 720px;
   background-color: #fff;
   text-align: center;
