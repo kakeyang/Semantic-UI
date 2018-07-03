@@ -565,6 +565,7 @@ body {
 .pd20 {
   padding: 20px 0 !important;
 }
+
 .sw-txt-14 {
     font-size: 14px;
     font-size: 1.4rem;
@@ -694,4 +695,30 @@ body {
 
 .mr-0 {
     margin: 0;
+}
+
+.adm-contents_retweet_refine_bottom {
+    margin: 25px 0 0 0;
+}
+
+.st-form-retweet .adm-contents_retweet_refine_bottom .st-form_item .item_input p:first-child {
+    margin-bottom: 0px!important;
+}
+
+.st-form .item_checkbox_item_label.checked:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.sw-txt-ml35 {
+    margin: 0 0 0 35px;
+}
+
+.adm-contents_retweet_list_top_preserve {
+    display: inline-block;
+    float: right;
+}
+
+.adm-contents_retweet_list_top {
+    padding: 40px 0 35px 0;
 }

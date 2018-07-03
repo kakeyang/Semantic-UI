@@ -174,3 +174,18 @@
 .vl-middle {
     vertical-align: middle;
 }
+
+.st-form-retweet .item_input input[type="number"] {
+    width: 80px!important;
+}
+
+.st-form-retweet {
+    .item_select-short:after {
+        border-style: none!important;
+    }
+
+    .item_select-short .ui.dropdown {
+        width: 170px;
+        min-width: 170px;
+    }
+}

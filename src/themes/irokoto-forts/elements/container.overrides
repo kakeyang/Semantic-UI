@@ -291,7 +291,7 @@
 }
 
 .sw-ttl-liquid, .adm-contents-inner-liquid {
-    width: 100%;
+    width: 100%!important;
 }
 
 .adm-contents-inner-liquid {
