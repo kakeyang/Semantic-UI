@@ -619,7 +619,7 @@ body {
 }
 
 .txt-left {
-    text-align: left;
+    text-align: left!important;
 }
 
 .txt-right {
@@ -701,7 +701,7 @@ body {
     margin: 25px 0 0 0;
 }
 
-.st-form-retweet .adm-contents_retweet_refine_bottom .st-form_item .item_input p:first-child {
+.st-form-retweet .st-form_item .item_input p:first-child {
     margin-bottom: 0px!important;
 }
 
@@ -714,7 +714,7 @@ body {
     margin: 0 0 0 35px;
 }
 
-.adm-contents_retweet_list_top_preserve {
+.adm-contents_retweet_list_top_preserve, .adm-contents_retweet_list_bottom_preserve {
     display: inline-block;
     float: right;
 }
@@ -772,4 +772,8 @@ body {
 
 .sw-txt-color {
   color: rgba(0,0,0,.87) !important;
+}
+
+.direct-page-form.st-form-mt30 {
+    margin: 30px 0 0 0;
 }
