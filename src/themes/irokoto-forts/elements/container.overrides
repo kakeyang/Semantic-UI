@@ -179,7 +179,11 @@
     }
 }
 
+<<<<<<< HEAD
 .ui.container.directMessage-form, .ui.container.user-acocunt-form, .ui.container.adm-contents-inner-liquid {
+=======
+.ui.container.directMessage-form, .ui.container.user-acocunt-form, .ui.container.contact-form {
+>>>>>>> f4b7cd78dba29b38b8a8b2d7030c84ae224276b3
     padding: 40px 30px 60px 30px;
     margin: 0 auto;
     width: 1200px;
@@ -256,7 +260,6 @@
         .adm-contents_report_item {
             font-size: 0;
             border-bottom: 1px solid #cccccc;
-
             .item_name, .item_status {
                 padding: 10px 35px;
                 width: 350px;
@@ -355,4 +358,12 @@
     }
 }
 
+.sw-subttl-1 {
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
 
+.sw-subttl-1:after {
+    top: 0px !important;
+}

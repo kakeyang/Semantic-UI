@@ -264,3 +264,12 @@
 .st-btn-modal-cr-ex {
   letter-spacing: 0.05em;
 }
+
+.sw-btn-conf {
+  margin-top: 40px !important;
+  letter-spacing: 0.05em;
+  margin-right: 0px !important;
+}
+.ui.button.sw-btn-center-mt20 {
+    margin: 20px auto 0;
+}
