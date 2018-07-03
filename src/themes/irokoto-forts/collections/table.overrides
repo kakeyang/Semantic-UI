@@ -491,3 +491,7 @@
         width: 100px;
     }
 }
+
+.bd-none {
+    border: none!important;
+}
