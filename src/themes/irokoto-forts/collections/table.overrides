@@ -375,7 +375,6 @@
     font-size: 14px;
     font-size: 14px;
     font-size: 1.4rem;
-    display: inherit;
 
     .st-table_row-label th {
         padding: 5px 0;
@@ -450,7 +449,7 @@
 
     .st-table_row td.st-table_row_column-liquid-user .user_id {
         margin: 0 0 0 10px;
-        width: 59%;
+        width: 57%;
         display: inline-block;
         vertical-align: middle;
         color: #2b7bb9;
