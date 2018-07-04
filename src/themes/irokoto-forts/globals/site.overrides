@@ -561,6 +561,7 @@ body {
 .pd20 {
   padding: 20px 0 !important;
 }
+
 .sw-txt-14 {
     font-size: 14px;
     font-size: 1.4rem;
@@ -614,7 +615,7 @@ body {
 }
 
 .txt-left {
-    text-align: left;
+    text-align: left!important;
 }
 
 .txt-right {
@@ -778,5 +779,99 @@ body {
 }
 
 .sw-txt-mt30 {
+    margin: 30px 0 0 0;
+}
+
+.sw-txt-ib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.st-form-retweet .item_select-end {
+    margin: 0 0 0 10px;
+}
+
+.mr-0 {
+    margin: 0;
+}
+
+.adm-contents_retweet_refine_bottom {
+    margin: 25px 0 0 0;
+}
+
+.st-form-retweet .st-form_item .item_input p:first-child {
+    margin-bottom: 0px!important;
+}
+
+.st-form .item_checkbox_item_label.checked:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.sw-txt-ml35 {
+    margin: 0 0 0 35px;
+}
+
+.adm-contents_retweet_list_top_preserve, .adm-contents_retweet_list_bottom_preserve {
+    display: inline-block;
+    float: right;
+}
+
+.adm-contents_retweet_list_top {
+    padding: 40px 0 35px 0;
+}
+
+.w640 {
+  width: 640px;
+}
+
+.fs16 {
+  font-size: 16px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.sw-subttl-ex {
+  padding: 0 0 0 13px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  position: relative;
+}
+
+.sw-subttl-ex:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #86b1dc;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+
+.mt45 {
+  margin-top: 45px !important;
+}
+
+.mt50 {
+  margin-top: 50px !important;
+}
+
+.w535 {
+  width: 535px !important;
+}
+
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+.sw-txt-color {
+  color: rgba(0,0,0,.87) !important;
+}
+
+.direct-page-form.st-form-mt30 {
     margin: 30px 0 0 0;
 }
