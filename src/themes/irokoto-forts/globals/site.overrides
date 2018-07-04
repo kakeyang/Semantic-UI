@@ -490,7 +490,7 @@ body {
 }
 
 .mt60 {
-  margin-top: 60px;
+  margin-top: 60px !important;
 }
 
 .pt40 {
@@ -780,6 +780,18 @@ body {
 
 .sw-txt-mt30 {
     margin: 30px 0 0 0;
+}
+
+.btn-cp-detail {
+  letter-spacing: 0.05em;
+}
+
+.mb90 {
+  margin-bottom: 90px !important;
+}
+
+.fw70 {
+  font-weight: 700;
 }
 
 .sw-txt-ib {
