@@ -167,6 +167,34 @@
         border-bottom: 1px solid #86b1dc;
         position: relative;
     }
+
+    .st-table_row_column-add-twitter-app {
+        width: 180px;
+    }
+
+    .st-table_row_column-edit-twitter-app {
+        width: 180px;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-edit-twitter-app {
+        border-right: 1px solid #7ba6d1;
+    }
+
+    .st-table_row_column-number-twitter-app {
+        width: 140px;
+    }
+
+    .st-table_row_column-name-twitter-app {
+        width: 635px;
+    }
+
+    .st-table_row_column-id-twitter-app {
+        width: 63px;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-id-twitter-app {
+        border-left: 1px solid #7ba6d1;
+    }
 }
 
 .st-table-list {
