@@ -138,6 +138,10 @@
         border-left: 1px solid #86b1dc;
     }
 
+    .st-table_row-normal:hover .st-table_bd_right{
+        border-right: 1px solid #86b1dc;
+    }
+
     .st-table_row_column-user-campaign-title {
         width: 524px;
         padding: 20px 0 20px 20px !important;
@@ -168,10 +172,6 @@
         position: relative;
     }
 
-    .st-table_row_column-add-twitter-app {
-        width: 180px;
-    }
-
     .st-table_row_column-edit-twitter-app {
         width: 180px;
     }
@@ -185,7 +185,7 @@
     }
 
     .st-table_row_column-name-twitter-app {
-        width: 635px;
+        width: 815px;
     }
 
     .st-table_row_column-id-twitter-app {
