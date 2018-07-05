@@ -1,0 +1,16 @@
+.ui.segment {
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding: unset;
+  margin: unset;
+  position: relative;
+  font-size: inherit;
+}
+
+.ui.segment .ui.dimmer>.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
