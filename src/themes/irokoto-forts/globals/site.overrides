@@ -905,3 +905,7 @@ body {
 .pd-tb-100 {
     padding: 100px 0 100px 0!important;
 }
+
+.mrg0-auto {
+  margin: 0 auto;
+}
