@@ -922,6 +922,6 @@ body {
   margin: 0 auto;
 }
 
-.mt60 {
-  margin-top: 60px !important;
+.w550 {
+  width: 550px !important;
 }
