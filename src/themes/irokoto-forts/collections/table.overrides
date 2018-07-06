@@ -195,6 +195,16 @@
     .st-table_row-normal:hover .st-table_row_column-id-twitter-app {
         border-left: 1px solid #7ba6d1;
     }
+
+    .st-table_row_column-tw-app {
+        padding: 20px 10px 20px 10px !important;
+        width: 900px;
+        text-align: left!important;
+    }
+
+    .st-table_row-normal:hover .st-table_row_column-tw-app {
+        border-left: 1px solid #7ba6d1;
+    }
 }
 
 .st-table-list {

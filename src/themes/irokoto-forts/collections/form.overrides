@@ -546,7 +546,3 @@
         width: 540px;
     }
 }
-
-.twitter-app-form {
-    width: 550px;
-}

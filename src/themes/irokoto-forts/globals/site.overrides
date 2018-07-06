@@ -891,3 +891,7 @@ body {
 .mrg0-auto {
   margin: 0 auto;
 }
+
+.w550 {
+  width: 550px !important;
+}
