@@ -906,6 +906,18 @@ body {
     padding: 100px 0 100px 0!important;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
+.cl-red {
+  color: #ff0000;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
 .mrg0-auto {
   margin: 0 auto;
 }
