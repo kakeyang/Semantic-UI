@@ -530,3 +530,19 @@
 .bd-none {
     border: none!important;
 }
+
+.list-campaign-retweeters-table {
+    max-width: 100%;
+    display: inline-block;
+    position: inherit;
+
+    tbody {
+        display: inline-block;
+        max-width: 100%;
+
+        tr {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+}
