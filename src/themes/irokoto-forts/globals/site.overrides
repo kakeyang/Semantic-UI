@@ -888,6 +888,18 @@ body {
     margin: 30px 0 0 0;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
+.cl-red {
+  color: #ff0000;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
 .mrg0-auto {
   margin: 0 auto;
 }
