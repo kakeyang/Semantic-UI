@@ -190,6 +190,10 @@
     }
 }
 
+.item_input_cr_ex {
+  display: table;
+}
+
 .item_input_cr_ex input[type="text"] {
   margin: 0 !important;
   width: 535px !important;
