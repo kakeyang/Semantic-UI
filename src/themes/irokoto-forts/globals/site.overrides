@@ -909,3 +909,7 @@ body {
 .mrg0-auto {
   margin: 0 auto;
 }
+
+.mt60 {
+  margin-top: 60px !important;
+}
