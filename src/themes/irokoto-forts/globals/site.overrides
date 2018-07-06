@@ -899,3 +899,7 @@ body {
 .mb10 {
   margin-bottom: 10px;
 }
+
+.mrg0-auto {
+  margin: 0 auto;
+}
