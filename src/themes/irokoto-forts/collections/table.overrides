@@ -560,3 +560,7 @@
         }
     }
 }
+
+.ui.table td {
+    padding: 25px 0;
+}

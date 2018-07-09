@@ -34,7 +34,7 @@ body {
 	}
 }
 .adm-contents {
-  padding: 40px 0 90px 0;
+  padding: 26px 0 90px 0;
 }
 
 .adm-contents-inner {
@@ -137,11 +137,11 @@ body {
 }
 
 .st-header {
-  padding: 28px 35px;
+  padding: 29px 35px;
   width: 100%;
   background-color: #fff;
   .st-header_logo {
-    margin: 0px 0 0 0;
+    margin-top: 6px;
     font-size: 0;
     float: left;
     .st-header_logo_company {
@@ -924,4 +924,9 @@ body {
 
 .w550 {
   width: 550px !important;
+}
+
+
+.st-table_row-top > th {
+    font-weight: 500;
 }
