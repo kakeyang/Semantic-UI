@@ -925,3 +925,8 @@ body {
 .w550 {
   width: 550px !important;
 }
+
+a.active {
+  pointer-events: none;
+  cursor: default;
+}
