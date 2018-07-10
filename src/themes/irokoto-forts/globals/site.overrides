@@ -925,3 +925,19 @@ body {
 .w550 {
   width: 550px !important;
 }
+
+.mt17 {
+  margin-top: 17px;
+}
+
+#notice_content {
+  height: 150px;
+}
+
+.create-notice-form {
+  margin-top: 11px;
+}
+
+.btn-back-create-notice-form { 
+  margin-top: 22px !important;
+}
