@@ -984,3 +984,7 @@ body {
   pointer-events: none;
   cursor: default;
 }
+
+.mt8 {
+  margin-top: 8px;
+}
