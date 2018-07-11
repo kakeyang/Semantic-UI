@@ -988,3 +988,7 @@ body {
 .mt8 {
   margin-top: 8px;
 }
+
+.h45 {
+  height: 45px;
+}
