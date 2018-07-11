@@ -992,3 +992,19 @@ body {
 .h45 {
   height: 45px;
 }
+
+.mt17 {
+  margin-top: 17px;
+}
+
+#notice_content {
+  height: 150px;
+}
+
+.mt11 {
+  margin-top: 11px;
+}
+
+.mt22 { 
+  margin-top: 22px !important;
+}
