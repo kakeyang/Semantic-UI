@@ -1016,3 +1016,9 @@ body {
 .st-table_row-top > th {
   font-weight: 500;
 }
+
+.remove-icon {
+  .icon.dropdown:before {
+    content: none;
+  }
+}
