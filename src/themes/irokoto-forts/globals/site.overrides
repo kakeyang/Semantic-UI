@@ -973,10 +973,10 @@ body {
   height: 150px;
 }
 
-.create-notice-form {
+.mt11 {
   margin-top: 11px;
 }
 
-.btn-back-create-notice-form { 
+.mt22 { 
   margin-top: 22px !important;
 }
