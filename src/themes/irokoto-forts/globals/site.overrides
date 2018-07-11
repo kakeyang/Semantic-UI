@@ -926,7 +926,7 @@ body {
   width: 550px !important;
 }
 
-a.active {
+.pagination a.active {
   pointer-events: none;
   cursor: default;
 }
