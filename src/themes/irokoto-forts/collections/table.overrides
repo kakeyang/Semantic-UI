@@ -30,7 +30,7 @@
     }
 
     .st-table_row_column-content {
-        padding: 20px 0 20px 20px !important;
+        padding: 20px 20px 20px 20px !important;
         width: 400px;
         text-align: left;
     }
@@ -94,6 +94,10 @@
         border-top: 1px solid #86b1dc!important;
         border-bottom: 1px solid #86b1dc;
         position: relative;
+    }
+
+    .st-table_row-normal:hover th:last-child, .st-table_row-normal:hover td:last-child {
+      border-right: 1px solid #86b1dc!important;
     }
 
     .st-table_row-normal:hover .st-table_row_column-number,
