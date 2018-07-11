@@ -565,6 +565,6 @@
     }
 }
 
-.ui.table td {
-    padding: 25px 0;
+.admin-table-row {
+    padding: 25px 0 !important;
 }
