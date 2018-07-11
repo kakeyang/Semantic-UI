@@ -965,9 +965,48 @@ body {
   padding-right: 20px !important;
 }
 
+.st-content-admin-login {
+    margin: 20px 0 0 0;
+    color: #616e7a;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.h48 {
+  height: 48px !important;
+}
+
 .pagination a.active {
   pointer-events: none;
   cursor: default;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.h45 {
+  height: 45px;
+}
+
+.mt17 {
+  margin-top: 17px;
+}
+
+#notice_content {
+  height: 150px;
+}
+
+.mt11 {
+  margin-top: 11px;
+}
+
+.mt22 { 
+  margin-top: 22px !important;
 }
 
 .st-table_row-top > th {
