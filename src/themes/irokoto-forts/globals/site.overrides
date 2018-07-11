@@ -979,3 +979,8 @@ body {
 .h48 {
   height: 48px !important;
 }
+
+.pagination a.active {
+  pointer-events: none;
+  cursor: default;
+}
