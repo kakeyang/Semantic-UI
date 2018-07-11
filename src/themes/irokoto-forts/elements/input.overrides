@@ -259,3 +259,11 @@
   background-position: 13px 17px !important;
   transition: .2s !important;
 }
+
+.st-input-admin-edit-customer >input[type="text"] {
+  height: 47px !important;
+}
+
+.st-input-admin-edit-customer >input[type="password"] {
+  height: 47px !important;
+}
