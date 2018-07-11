@@ -964,3 +964,8 @@ body {
 .pr20 {
   padding-right: 20px !important;
 }
+
+.pagination a.active {
+  pointer-events: none;
+  cursor: default;
+}
