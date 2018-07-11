@@ -546,3 +546,9 @@
         width: 540px;
     }
 }
+
+.account-register-field input {
+  margin-bottom: 0 !important;
+  font-size: 1.4rem;
+  line-height: 1.4rem !important;
+}
