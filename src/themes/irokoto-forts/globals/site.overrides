@@ -964,3 +964,18 @@ body {
 .pr20 {
   padding-right: 20px !important;
 }
+
+.st-content-admin-login {
+    margin: 20px 0 0 0;
+    color: #616e7a;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.h48 {
+  height: 48px !important;
+}
