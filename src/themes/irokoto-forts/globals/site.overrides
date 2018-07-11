@@ -946,3 +946,11 @@ body {
 .h54 {
   height: 54px;
 }
+
+.word-break {
+  word-break: break-word;
+}
+
+.pr20 {
+  padding-right: 20px !important;
+}
