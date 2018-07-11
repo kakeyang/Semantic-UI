@@ -926,6 +926,14 @@ body {
   width: 550px !important;
 }
 
+.word-break {
+  word-break: break-word;
+}
+
+.pr20 {
+  padding-right: 20px !important;
+}
+
 a.active {
   pointer-events: none;
   cursor: default;
