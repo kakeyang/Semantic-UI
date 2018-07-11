@@ -564,3 +564,7 @@
         }
     }
 }
+
+.admin-table-row {
+    padding: 25px 0 !important;
+}
