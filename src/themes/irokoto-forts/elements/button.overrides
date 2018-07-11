@@ -270,3 +270,7 @@
     line-height: 1;
     border-radius: 25px;
 }
+
+.btn-admin-login {
+  box-shadow: 0 7px 10px rgba(97, 110, 122, 0.1) !important;
+}
