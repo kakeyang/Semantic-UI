@@ -1012,3 +1012,7 @@ body {
 .h45 {
   height: 45px;
 }
+
+.clear-both {
+    clear: both;
+}

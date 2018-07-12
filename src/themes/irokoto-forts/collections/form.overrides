@@ -17,6 +17,10 @@
         font-size: 1.4rem;
         color: rgb(97, 110, 122);
     }
+
+    .inline.field span.mt-16 {
+        margin: 16px 0px 0px;
+    }
     .inline.field .ui.input, .inline.field .selectDate>div {
         float: right;
         width : auto!important;
@@ -92,6 +96,11 @@
         float: right;
         text-align: left;
      }
+}
+
+.notice-form .item_error {
+    margin: 0!important;
+    width: 100%!important;
 }
 
 .account-form {
