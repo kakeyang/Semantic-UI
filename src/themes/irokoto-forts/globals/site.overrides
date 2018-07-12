@@ -1013,6 +1013,10 @@ body {
   height: 45px;
 }
 
+.clear-both {
+    clear: both;
+}
+
 .mt0 {
   margin-top: 0px !important;
 }
