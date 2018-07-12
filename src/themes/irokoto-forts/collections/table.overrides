@@ -9,7 +9,7 @@
     border-collapse: separate;
     border-spacing: 0;
     tr th, tr td {
-        padding: 25px 0;
+        padding: 25px 0 !important;
         vertical-align: middle;
         border: 1px solid #f1f5f9;
         line-height: 1.4;
