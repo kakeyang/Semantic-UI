@@ -6,13 +6,14 @@
     margin: 0px auto;
     .inline.field {
         margin: 0px 0px 20px!important;
+        line-height: 1rem;
     }
     .inline.field>label{
         width: 100%!important;
     }
     .inline.field span {
         float: left;
-        margin: 16px 0px 0px;
+        margin: 18px 0px 0px;
         font-size: 1.4rem;
         color: rgb(97, 110, 122);
     }
