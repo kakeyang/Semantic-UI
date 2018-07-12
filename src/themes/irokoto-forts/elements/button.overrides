@@ -61,7 +61,7 @@
     box-shadow: 0 2px 4px #c8cfd5;
 }
 
-.st-table_row_column-edit .sw-btn-s {
+.st-table_row_column-edit .sw-btn-a {
     padding: 9px 0 10px;
     width: 100px;
     font-size: 14px;
