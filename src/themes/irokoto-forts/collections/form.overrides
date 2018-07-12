@@ -562,3 +562,33 @@
   font-size: 1.4rem;
   line-height: 1.4rem !important;
 }
+
+.id-login-input::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  background-image: url(../images/icn_id.png)!important;
+  background-repeat: no-repeat!important;
+  background-size: 14px 19px!important;
+  background-position: 12px 14px!important;
+  top: 2px;
+  left: 2px;
+}
+
+.pw-login-input::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  background-image: url(../images/icn_pw.png)!important;
+  background-repeat: no-repeat!important;
+  background-size: 14px 19px!important;
+  background-position: 12px 14px!important;
+  top: 2px;
+  left: 2px;
+}
