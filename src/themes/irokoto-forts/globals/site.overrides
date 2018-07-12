@@ -36,7 +36,7 @@ body {
 	}
 }
 .adm-contents {
-  padding: 26px 0 90px 0;
+  padding: 40px 0 90px 0;
 }
 
 .adm-contents-inner {
@@ -164,7 +164,7 @@ body {
 }
 
 .st-header {
-  padding: 29px 35px;
+  padding: 28px 35px;
   width: 100%;
   background-color: #fff;
 }
@@ -985,12 +985,8 @@ body {
   cursor: default;
 }
 
-.mt8 {
-  margin-top: 8px;
-}
-
-.h101 {
-  height: 101px;
+.mt7 {
+  margin-top: 7px;
 }
 
 .mt17 {
@@ -1009,16 +1005,10 @@ body {
   margin-top: 22px !important;
 }
 
-.mt14 {
-  margin-top: 14px !important;
-}
-
 .st-table_row-top > th {
   font-weight: 500;
 }
 
-.remove-icon {
-  .icon.dropdown:before {
-    content: none;
-  }
+.h45 {
+  height: 45px;
 }
