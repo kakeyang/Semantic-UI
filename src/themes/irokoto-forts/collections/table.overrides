@@ -213,6 +213,10 @@
 
 .st-table-list {
     text-align: center!important;
+
+    .st-table_row td.st-table_row_column-user-campaign-title {
+        word-break: break-word;
+    }
 }
 
 .st-table-info, .st-table-extractions {
