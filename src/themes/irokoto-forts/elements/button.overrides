@@ -274,3 +274,7 @@
 .btn-red-box-shadow {
   box-shadow: 0 7px 10px rgba(97, 110, 122, 0.1) !important;
 }
+
+.ui.button.sw-btn-center {
+    margin: 0 auto!important;
+}

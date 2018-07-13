@@ -38,7 +38,7 @@
 }
 
 .ui.tabular.menu .active.item {
-  height: auto;
+  min-height: 60px;
   word-break: break-word;
   background-color: #eb5871;
   font-size: 16px;
