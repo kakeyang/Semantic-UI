@@ -5,7 +5,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
