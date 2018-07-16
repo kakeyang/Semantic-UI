@@ -5,12 +5,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
-    .ui.st-table-liquid:not(.unstackable) tr.st-table_row>td {
+    .ui.st-table-liquid:not(.unstackable) tr.st-table_row>td, {
         width: auto!important;
         display: table-cell!important;
     }
@@ -20,21 +21,36 @@
         border: 1px solid #fff!important;
     }
 
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>td {
+        border: 1px solid #f1f5f9;
+        padding: 30px 0 30px 20px;
+        display: table-cell!important;
+    }
+
     .ui.st-table-liquid:not(.unstackable) tbody,
-    .ui.st-table-liquid:not(.unstackable) tr.st-table_row {
+    .ui.st-table-liquid:not(.unstackable) tr.st-table_row,
+    .ui.st-table-extractions:not(.unstackable) tbody,
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row {
         width: auto!important;
         display: table-row!important;
     }
 
-    .ui.container.dashboard_user {
+    .ui.container.dashboard_user, .ui.container.user-list-extractions {
         width: 1200px!important;
     }
 
-    .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th {
-        border: 1px solid #fff!important;
-        padding: 5px 0!important;
-        color: #fff!important;
+    .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row>th {
+        border: 1px solid #fff;
+        padding: 5px 0;
+        color: #fff;
         background-color: #86b1dc;
+    }
+
+    .ui.list-extractions td.st-table_row_column-campaign-extraction-list,
+    .ui.list-extractions th.st-table_row_column-campaign-extraction-list {
+        width: 480px!important;
     }
 }
 
@@ -48,6 +64,14 @@
     .dashboard_user {
         width: 1200px!important;
     }
+}
+
+.ui.container.user-list-extractions {
+    max-width: 1200px!important;
+}
+
+.ui.container.user-list-extractions {
+    width: 1200px!important;
 }
 
 .dashboard_user .adm-contents-inner-top {

@@ -9,7 +9,7 @@
     border-collapse: separate;
     border-spacing: 0;
     tr th, tr td {
-        padding: 25px 0 !important;
+        padding: 25px 0;
         vertical-align: middle;
         border: 1px solid #f1f5f9;
         line-height: 1.4;
@@ -92,7 +92,7 @@
         border-left: 1px solid #f1f5f9;
         border-right: 1px solid #f1f5f9;
         border-top: 1px solid #86b1dc!important;
-        border-bottom: 1px solid #86b1dc;
+        border-bottom: 1px solid #86b1dc!important;
         position: relative;
     }
 
@@ -103,7 +103,7 @@
     .st-table_row-normal:hover .st-table_row_column-number,
     .st-table_row-normal:hover .st-table_row_column-campaign-extraction-list,
     .st-table_row-normal:hover .st-table_row_column-dm-title {
-        border-left: 1px solid #86b1dc;
+        border-left: 1px solid #86b1dc!important;
     }
 
     .st-table_row-normal:hover .st-hv-right,
@@ -344,15 +344,20 @@
     cursor: pointer;
 }
 
-.list-extractions {
+.ui.list-extractions {
     text-align: center !important;
 
     .st-table_row-label th {
         font-weight: 500;
     }
 
+    td {
+        padding: 20px 0;
+    }
+
     .st-table_row_column-campaign-extraction-date {
         width: 90px;
+        word-break: break-word;
     }
 
     .st-table_row_column-campaign-extraction-number {
@@ -376,6 +381,7 @@
         width: 480px;
         text-align: left;
         line-height: 1.5;
+        word-break: break-word;
     }
 
     .st-table_row_column-campaign-extraction-date {
@@ -403,10 +409,7 @@
     }
 
     .st-table_row_column-campaign-extraction-list {
-        padding-top: 7px !important;
-        padding-left: 7px !important;
-        padding-right: 0px !important;
-        padding-bottom: 7px !important;
+        padding: 7px 0 7px 7px!important;
         width: 480px;
         text-align: center;
     }
@@ -567,4 +570,11 @@
 
 .admin-table-row {
     padding: 25px 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+.ui.table:not(.unstackable) tbody, .ui.table:not(.unstackable) tr, .ui.table:not(.unstackable) tr>td, .ui.table:not(.unstackable) tr>th {
+    width: auto;
+    display: block;
+}
 }
