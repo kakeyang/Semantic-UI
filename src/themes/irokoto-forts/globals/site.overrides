@@ -182,7 +182,7 @@ body {
   float: left !important;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 
@@ -255,6 +255,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 0 !important;
+  line-height: 1.5rem;
 }
 
 .mt30 {
@@ -1023,4 +1024,8 @@ body {
 
 .h40 {
   height: 40px !important;
+}
+
+.lh16 {
+  line-height: 1.6rem !important;
 }
