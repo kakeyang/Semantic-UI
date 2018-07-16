@@ -205,6 +205,10 @@
     background-color: #fff;
 }
 
+.ui.container.adm-contents-inner.adm-contents-inner-liquid.adm-campaign-retweet {
+    padding-top: 44px;
+}
+
 .adm-contents-inner-dm-report {
     margin: 40px auto 0 auto !important;
     padding: 60px 30px 60px 30px;
@@ -319,6 +323,7 @@
         text-align: left;
 
         .adm-contents_retweet_report_item {
+            line-height: 1.4rem;
             margin: 0 50px 0 0;
             display: inline-block;
             vertical-align: middle;
@@ -330,7 +335,7 @@
                 background-color: #87b2dc;
             }
 
-            .item_count-follow {
+            .item_count.item_count-follow {
                 font-size: 38px;
                 font-size: 38px;
                 font-size: 3.8rem;
