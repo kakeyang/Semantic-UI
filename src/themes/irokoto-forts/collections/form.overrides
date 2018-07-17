@@ -266,8 +266,8 @@
     .item_radio_item_label:after {
         content: "";
         display: block;
-        width: 19px;
-        height: 19px;
+        width: 21px;
+        height: 21px;
         background-color: #fff;
         border: 1px solid #bfbfbf;
         border-radius: 10px;
@@ -296,6 +296,10 @@
         vertical-align: middle;
         position: relative;
         cursor: pointer;
+    }
+
+    .st-form .item_radio_item_label.label_filter_rt{
+        padding: 0 0 0 32px;
     }
 
     .item_radio_item {

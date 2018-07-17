@@ -321,6 +321,7 @@
         padding: 0 0 40px 0;
         font-size: 0;
         text-align: left;
+        margin-bottom: 7px;
 
         .adm-contents_retweet_report_item {
             line-height: 1.4rem;
