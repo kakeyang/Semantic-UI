@@ -358,12 +358,12 @@
     .item_checkbox_item_label:after {
         content: "";
         display: block;
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
         background-color: #fff;
         border: 1px solid #bfbfbf;
         position: absolute;
-        top: -1px;
+        top: 1px;
         left: 0;
         transition: 0.2s;
         z-index: 1;

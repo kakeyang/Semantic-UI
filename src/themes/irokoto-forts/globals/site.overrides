@@ -827,7 +827,7 @@ body {
 }
 
 .adm-contents_retweet_refine_bottom {
-    margin: 25px 0 0 0;
+    margin: 27px 0 0 0;
 }
 
 .st-form-retweet .st-form_item .item_input p:first-child {
