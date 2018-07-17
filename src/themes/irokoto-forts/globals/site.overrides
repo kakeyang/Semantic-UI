@@ -828,6 +828,10 @@ body {
 }
 
 .adm-contents_retweet_refine_bottom {
+    margin: 25px  0 0 0;
+}
+
+.adm_contents_filter_rt_bottom {
     margin: 27px 0 0 0;
 }
 
@@ -840,6 +844,10 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
+.sw-txt-ml35 {
+    margin: 0 0 0 35px;
+}
+
 .sw-txt-select-users {
     margin: 0 7px 0 42px;
 }
@@ -850,6 +858,10 @@ body {
 }
 
 .adm-contents_retweet_list_top {
+    padding: 40px 0 35px 0;
+}
+
+.adm_contents_retweet_top_table {
     padding: 43px 0 38px 0;
 }
 

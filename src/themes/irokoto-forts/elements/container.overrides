@@ -359,6 +359,13 @@
                 background-color: #87b2dc;
             }
 
+            .item_count-follow {
+                font-size: 38px;
+                font-size: 38px;
+                font-size: 3.8rem;
+                color: #eb5871;
+            }
+
             .item_count.item_count-follow {
                 font-size: 38px;
                 font-size: 38px;
