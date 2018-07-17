@@ -279,3 +279,7 @@
   margin-right: 0px !important;
   letter-spacing: 0.08rem;
 }
+
+.ui.button.sw-btn-center {
+    margin: 0 auto!important;
+}

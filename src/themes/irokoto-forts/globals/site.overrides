@@ -1048,3 +1048,7 @@ body {
 .adm-contents-inner-success {
     padding: 40px 0 100px 0 !important;
 }
+
+.il-block {
+    display: inline-block;
+}
