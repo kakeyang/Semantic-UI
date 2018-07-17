@@ -966,6 +966,10 @@ body {
   word-break: break-word;
 }
 
+.break-all {
+    word-break: break-all;
+}
+
 .pr20 {
   padding-right: 20px !important;
 }
