@@ -1,3 +1,7 @@
 .ui.header {
   font-family: @headerFont;
 }
+
+.ui.header.notice-title {
+  font-size: 1.6rem;
+}

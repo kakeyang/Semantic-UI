@@ -8,7 +8,11 @@
     border: 1px solid #f1f5f9!important;
     border-collapse: separate;
     border-spacing: 0;
-    tr th, tr td {
+    tr th, tr td,
+    .st-table-admin-list-customer tr td,
+    .st-table-admin-list-customer tr th,
+    .st-table-list-twitter-app tr td,
+    .st-table-list-twitter-app tr th {
         padding: 25px 0;
         vertical-align: middle;
         border: 1px solid #f1f5f9;
