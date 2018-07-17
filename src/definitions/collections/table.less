@@ -163,7 +163,7 @@
   .ui.table:not(.unstackable) tr > th,
   .ui.table:not(.unstackable) tr > td  {
     display: block !important;
-    width: auto !important;
+    width: auto;
     display: block !important;
   }
 
@@ -185,8 +185,8 @@
   .ui.table:not(.unstackable) tr > th,
   .ui.table:not(.unstackable) tr > td {
     background: none;
-    border: none !important;
-    padding: @responsiveCellVerticalPadding @responsiveCellHorizontalPadding !important;
+    border: none;
+    padding: @responsiveCellVerticalPadding @responsiveCellHorizontalPadding;
     box-shadow: @responsiveCellBoxShadow;
   }
   .ui.table:not(.unstackable) th:first-child,
