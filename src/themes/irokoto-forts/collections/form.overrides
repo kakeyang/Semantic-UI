@@ -281,6 +281,11 @@
         z-index: 1;
     }
 
+    .item_radio_item_label:after {
+        width: 21px;
+        height: 21px;
+    }
+
     .item_select-short select {
         width: 170px;
     }
@@ -296,6 +301,10 @@
         vertical-align: middle;
         position: relative;
         cursor: pointer;
+    }
+
+    .st-form .item_radio_item_label.label_filter_rt{
+        padding: 0 0 0 32px;
     }
 
     .item_radio_item {
@@ -363,6 +372,12 @@
         left: 0;
         transition: 0.2s;
         z-index: 1;
+    }
+
+    .item_checkbox_filter_rt:after {
+        width: 20px;
+        height: 20px;
+        top: 1px;
     }
 }
 
