@@ -1029,3 +1029,6 @@ body {
 .lh16 {
   line-height: 1.6rem !important;
 }
+.il-block {
+    display: inline-block;
+}

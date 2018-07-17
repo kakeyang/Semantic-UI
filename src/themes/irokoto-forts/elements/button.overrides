@@ -283,3 +283,7 @@
   letter-spacing: 0.05em !important;
   margin: 0;
 }
+
+.ui.button.sw-btn-center {
+    margin: 0 auto!important;
+}
