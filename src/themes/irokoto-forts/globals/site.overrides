@@ -839,8 +839,8 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-.sw-txt-ml35 {
-    margin: 0 0 0 35px;
+.sw-txt-select-users {
+    margin: 0 7px 0 42px;
 }
 
 .adm-contents_retweet_list_top_preserve, .adm-contents_retweet_list_bottom_preserve {
@@ -849,7 +849,7 @@ body {
 }
 
 .adm-contents_retweet_list_top {
-    padding: 40px 0 35px 0;
+    padding: 43px 0 38px 0;
 }
 
 .w640 {
