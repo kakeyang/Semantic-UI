@@ -255,11 +255,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 0 !important;
-<<<<<<< HEAD
-  line-height: 1;
-=======
   line-height: 1.5rem;
->>>>>>> 1211388fd1718ad58e89b1db2e78d7806b1a8840
 }
 
 .mt30 {
