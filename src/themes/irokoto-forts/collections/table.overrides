@@ -571,3 +571,16 @@
 .admin-table-row {
     padding: 25px 0 !important;
 }
+
+.dashboard-header {
+    height: 140px;
+
+    tbody tr td {
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    tbody tr td.notices-top .adm-contents_info {
+        padding-bottom: 15px;
+    }
+}
