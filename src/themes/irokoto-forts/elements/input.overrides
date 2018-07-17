@@ -269,3 +269,66 @@
   background-position: 13px 17px !important;
   transition: .2s !important;
 }
+
+.ui.form .adm-contents_form-info_item textarea {
+  padding: 12px 12px 13px 12px;
+  margin: 20px 0 0 0;
+  color: #6d7984;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Noto Sans Japanese";
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  border: 1px solid #dde3e9;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.edit-form-btns {
+  margin: 30px -35px 0 0;
+  .ui.button {
+    margin: 0px auto 0;
+  }
+}
+
+.ui.form.notice-form .inline.field  span.deliver_date_edit_notice_tag {
+  margin-top: 16px;
+  line-height: 1.4rem;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item {
+  margin-bottom: 20px !important;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_label {
+  margin: 13px 20px 0 0;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_text_date {
+  margin: 12px 0 0 0;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_text_detail {
+  margin: 18px 0 0 0;
+  line-height: 2.5rem;
+}
+
+.ui.form .adm-contents_form-info_item textarea.content-notice-form {
+  line-height: 2rem;
+  :focus {
+    color: #6d7984 !important;
+  }
+}
+
+.ui.form .adm-contents_form-info_item textarea.content-notice-form:focus {
+  color: #6d7984 !important;
+}
+
+.adm-contents .adm-contents-inner-success {
+  padding: 40px 0 100px 0;
+}

@@ -274,3 +274,21 @@
 .btn-red-box-shadow {
   box-shadow: 0 7px 10px rgba(97, 110, 122, 0.1) !important;
 }
+
+.st-btn-text {
+  margin-right: 0px !important;
+  letter-spacing: 0.08rem;
+}
+
+.adm-contents-inner .ui.form .ui.button.confirm-edit-notice-btn {
+  margin: 40px auto 0;
+}
+
+.ui.button {
+  letter-spacing: 0.05em !important;
+  margin: 0;
+}
+
+.ui.button.sw-btn-center {
+  margin: 0 auto!important;
+}

@@ -182,7 +182,7 @@ body {
   float: left !important;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 
@@ -255,6 +255,11 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 0 !important;
+<<<<<<< HEAD
+  line-height: 1;
+=======
+  line-height: 1.5rem;
+>>>>>>> 1211388fd1718ad58e89b1db2e78d7806b1a8840
 }
 
 .mt30 {
@@ -938,7 +943,7 @@ body {
 }
 
 .mrg0-auto {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .w550 {
@@ -959,6 +964,10 @@ body {
 
 .word-break {
   word-break: break-word;
+}
+
+.break-all {
+    word-break: break-all;
 }
 
 .pr20 {
@@ -1023,4 +1032,35 @@ body {
 
 .h40 {
   height: 40px !important;
+}
+
+.h38 {
+  height: 38px;
+}
+
+.mt14 {
+  margin-top: 14px !important;
+}
+
+.ml4 {
+  margin-left: 4px !important;
+}
+
+.lh15 {
+  line-height: 1.5rem;
+}
+
+.lh1 {
+  line-height: 1;
+}
+.adm-contents-inner-success {
+    padding: 40px 0 100px 0 !important;
+}
+
+.lh16 {
+  line-height: 1.6rem !important;
+}
+
+.il-block {
+    display: inline-block;
 }
