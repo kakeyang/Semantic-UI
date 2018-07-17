@@ -537,6 +537,10 @@
          position: relative;
          cursor: pointer;
      }
+
+     .st-table_row th.b100 {
+         font-weight: 100;
+     }
 }
 
 .st-table-liquid .st-table_row th, .st-table-liquid .st-table_row td {
