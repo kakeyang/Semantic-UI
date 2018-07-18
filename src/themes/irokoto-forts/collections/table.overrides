@@ -512,6 +512,15 @@
         word-wrap: break-word;
     }
 
+    .st-table_row td.st-table_row_column-liquid-user .user_twitter {
+        vertical-align: middle;
+        display: inline-block;
+        width: 90px;
+        font-size: 1.4rem;
+        color: #2b7bb9;
+        word-wrap: break-word;
+    }
+
     .st-table_row-normal:hover th, .st-table_row-normal:hover td {
         border-spacing: 0 20px;
         border-left: 1px solid #f1f5f9;
