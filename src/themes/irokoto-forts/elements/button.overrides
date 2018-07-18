@@ -292,3 +292,14 @@
 .ui.button.sw-btn-center {
   margin: 0 auto!important;
 }
+
+.adm-contents-inner-table.sw-btn-r, .ui.button.sw-btn-r {
+    padding: 14px 0 15px;
+    width: 240px;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 22px;
+}
