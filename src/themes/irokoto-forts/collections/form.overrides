@@ -154,7 +154,7 @@
     }
 
     .adm-contents_form-info_item .item_text_detail {
-        margin: 17px 0 0 0;
+        margin: 15px 0 0 0;
         display: inline-block;
         clear: both;
     }
