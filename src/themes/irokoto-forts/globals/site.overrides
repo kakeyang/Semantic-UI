@@ -1089,3 +1089,11 @@ body {
 .mt51 {
   margin-top: 51px !important;
 }
+
+.bd-none {
+  border: none !important;
+}
+
+.lh13 {
+  line-height: 1.3rem !important;
+}
