@@ -1121,3 +1121,7 @@ body {
 .ls0 {
     letter-spacing: 0!important;
 }
+
+.adm-contents_info_btn:focus {
+    border: none;
+}
