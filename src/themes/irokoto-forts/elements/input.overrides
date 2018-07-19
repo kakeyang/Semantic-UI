@@ -57,7 +57,7 @@
     }
 }
 
-.log-contents_form_forget {
+.ui.label.log-contents_form_forget {
   font-size: 14px !important;
   font-size: 14px !important;
   font-size: 1.4rem !important;
@@ -65,9 +65,11 @@
   color: #333333 !important;
   font-weight: normal !important;
   margin-left: 22px !important;
-  letter-spacing: .05em;
+  letter-spacing: .00rem;
   background: 0 0!important;
   border: none!important;
+  padding: 0 !important;
+  margin-top: 25px;
 }
 
 .log-contents_form_forget:hover {
@@ -84,8 +86,8 @@
   background-image: url(../images/icn_forget-arrow.png);
   background-size: 13px 13px;
   position: absolute;
-  top: 7.5px;
-  left: -10px;
+  top: 2px;
+  left: -20px;
 }
 
 .st-form-dm .item_textarea textarea.mt-10 {
@@ -331,4 +333,15 @@
 
 .adm-contents .adm-contents-inner-success {
   padding: 40px 0 100px 0;
+}
+
+.user-login-input input {
+  line-height: 1.5rem !important;
+}
+
+.ui.form.login-form.user-login-form {
+  line-height: 1.4rem;
+  .field>label {
+    margin: 0;
+  }
 }

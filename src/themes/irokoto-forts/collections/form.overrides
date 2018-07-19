@@ -592,3 +592,24 @@
   top: 4px;
   left: 2px;
 }
+
+.user-pw-login-input::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  width: 35px;
+  background-color: #fff;
+  background-image: url(../images/icn_pw.png)!important;
+  background-repeat: no-repeat!important;
+  background-size: 16px 19px!important;
+  background-position: 12px 13px!important;
+  top: 4px;
+  left: 2px;
+}
+
+.forgot-form-wrap {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  display: inline-grid;
+}
