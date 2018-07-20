@@ -934,8 +934,8 @@ body {
 }
 
 .fz-15 {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 15px!important;
+    font-size: 1.5rem!important;
 }
 
 .fz-22 {
@@ -1121,4 +1121,13 @@ body {
 
 .lh13 {
   line-height: 1.3rem !important;
+}
+
+.f-inherit {
+  font: inherit;
+}
+
+.fz-16 {
+  font-size: 16px!important;
+  font-size: 1.6rem!important;
 }
