@@ -21,41 +21,41 @@ body {
   width: 100%;
   background-color: #86b1dc;
   border-radius: 5px; 
-	.ui.header {
-		display: block;
-	  -webkit-margin-before: 0.83em;
-	  -webkit-margin-after: 0.83em;
-	  -webkit-margin-start: 0px;
-	  -webkit-margin-end: 0px;
-		color: #fff;
-		font-size: 1.5rem;
-		font-weight: 500;
-		letter-spacing: 0.025em;
+  .ui.header {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
     line-height: 1.6rem !important;
     margin: 0 !important;
-	}
+  }
 }
 .adm-contents {
   padding: 40px 0 90px 0;
 }
 
 .adm-contents-inner {
-	padding: 40px 0 60px 0;
-	margin: 0 auto;
-	width: 100%;
-	background-color: #fff;
-	text-align: center;
+  padding: 40px 0 60px 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
 }
 
 .adm-contents_form {
-	margin: 0 auto;
-	width: 485px;
-	color: #616e7a;
-	font-size: 14px;
-	font-size: 14px;
-	font-size: 1.4rem;
-	font-weight: 500;
-	letter-spacing: 0.025em;
+  margin: 0 auto;
+  width: 485px;
+  color: #616e7a;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 .st-container {
   box-sizing: border-box;
@@ -66,7 +66,7 @@ body {
 }
 
 .admin-title {
-	color: #fff;
+  color: #fff;
 }
 
 .irokoto {
@@ -82,8 +82,8 @@ body {
 }
 
 .logo {
-	width: 223px;
-	height: 46px;
+  width: 223px;
+  height: 46px;
 }
 
 .login-form {
@@ -1108,4 +1108,16 @@ body {
 
 .lh13 {
   line-height: 1.3rem !important;
+}
+
+.w1050 {
+  width: 1050px !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.lh-detail-notice {
+  line-height: 2.2;
 }
