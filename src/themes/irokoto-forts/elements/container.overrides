@@ -420,5 +420,15 @@
 }
 
 .sw-subttl-1:after {
+    top: 0px !important;
+}
+
+.sw-subttl-l {
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.sw-subttl-l:after {
     top: -0.1rem !important;
 }
