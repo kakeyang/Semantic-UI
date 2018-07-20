@@ -1123,6 +1123,22 @@ body {
   line-height: 1.3rem !important;
 }
 
+.mb0 {
+   margin-bottom: 0!important;
+}
+
+.cl-black {
+    color: #333333;
+}
+
+.ls0 {
+    letter-spacing: 0!important;
+}
+
+.adm-contents_info_btn:focus {
+    border: none;
+}
+
 .w1050 {
   width: 1050px !important;
 }
