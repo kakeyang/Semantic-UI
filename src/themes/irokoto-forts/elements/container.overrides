@@ -340,6 +340,10 @@
     width: 100%!important;
 }
 
+.sw-ttl-liquid .campaign_rt_title {
+    font-size: 16px !important;
+}
+
 .adm-contents-inner-liquid {
     .adm-contents_retweet .adm-contents_retweet_report {
         padding: 0 0 40px 0;
