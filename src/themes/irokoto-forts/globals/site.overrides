@@ -1122,3 +1122,11 @@ body {
 .lh13 {
   line-height: 1.3rem !important;
 }
+
+.mt6 {
+  margin-top: 6px !important;
+}
+
+.ml30 {
+  margin-left: 30px !important;
+}

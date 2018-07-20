@@ -420,5 +420,5 @@
 }
 
 .sw-subttl-1:after {
-    top: 0px !important;
+    top: -0.1rem !important;
 }
