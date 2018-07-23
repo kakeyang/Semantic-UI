@@ -587,11 +587,6 @@ body {
   padding: 20px 0 !important;
 }
 
-.sw-txt-14 {
-    font-size: 14px;
-    font-size: 1.4rem;
-}
-
 .sw-txt {
     letter-spacing: 0.025em;
     line-height: 1.8;
@@ -614,11 +609,11 @@ body {
     text-align: right;
 }
 
-.sw-txt-middle {
+.sw-txt-middle, fw500 {
     font-weight: 500;
 }
 
-.sw-txt-14 {
+.sw-txt-14, .fz-14 {
     font-size: 14px;
     font-size: 14px;
     font-size: 1.4rem;
@@ -921,7 +916,7 @@ body {
   width: 535px !important;
 }
 
-.mb0 {
+.mb0, .ui.form .inline.field.mb0 {
   margin-bottom: 0px !important;
 }
 
@@ -1072,7 +1067,7 @@ body {
 }
 
 .lh1 {
-  line-height: 1;
+  line-height: 1!important;
 }
 
 .adm-contents-inner-success {
@@ -1123,6 +1118,14 @@ body {
   line-height: 1.3rem !important;
 }
 
+.mt25, .ui.form .inline.field.mt25 {
+  margin-top: 25px!important;
+}
+
+.mt16 {
+  margin-top: 16px !important;
+}
+
 .mt6 {
   margin-top: 6px !important;
 }
@@ -1170,4 +1173,8 @@ body {
 
 .ml60 {
   margin-left: 60px;
+}
+
+.fs100 {
+  font-size: 100%!important;
 }
