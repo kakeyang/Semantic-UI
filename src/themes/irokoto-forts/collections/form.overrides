@@ -281,11 +281,11 @@
         z-index: 1;
     }
 
-    .st_radio_report:after {
+    .st_radio_report::after {
         top: 47% !important;
     }
 
-    .st_radio_report:before {
+    .st_radio_report::before {
         top: 47% !important;
     }
 
