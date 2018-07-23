@@ -1167,3 +1167,11 @@ body {
   font-size: 16px!important;
   font-size: 1.6rem!important;
 }
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.lt-027 {
+  letter-spacing: 0.027em;
+}

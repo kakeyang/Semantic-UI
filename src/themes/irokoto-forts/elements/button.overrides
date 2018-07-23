@@ -303,3 +303,8 @@
     line-height: 1;
     border-radius: 22px;
 }
+
+.sw-btn-report-form {
+  margin-top: 32px;
+  text-align: center;
+}

@@ -281,6 +281,14 @@
         z-index: 1;
     }
 
+    .st_radio_report:after {
+        top: 47% !important;
+    }
+
+    .st_radio_report:before {
+        top: 47% !important;
+    }
+
     .item_radio_item_label:after {
         width: 21px;
         height: 21px;
@@ -483,14 +491,14 @@
 }
 
 .st-item-report-form .st-date-report-form {
-    margin-top: -16px !important;
+    margin-top: -13px !important;
 }
 
 .sw-text {
-    font-size: 30px;
-    font-weight: 300;
-    margin-right: -10px;
-    margin-left: -10px;
+    font-size: 33px;
+    font-weight: 200;
+    margin-right: -13px;
+    margin-left: -13px;
 }
 
 .react-datepicker__time-list {
