@@ -1174,3 +1174,7 @@ body {
 .fs100 {
   font-size: 100%!important;
 }
+
+.mt25 {
+  margin-top: 25px !important;
+}

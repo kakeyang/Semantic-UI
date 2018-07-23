@@ -345,3 +345,8 @@
     margin: 0;
   }
 }
+
+.st-input-iquiry >input {
+  height: 47px;
+  margin-bottom: 0px !important;
+}
