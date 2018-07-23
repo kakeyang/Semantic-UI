@@ -587,11 +587,6 @@ body {
   padding: 20px 0 !important;
 }
 
-.sw-txt-14 {
-    font-size: 14px;
-    font-size: 1.4rem;
-}
-
 .sw-txt {
     letter-spacing: 0.025em;
     line-height: 1.8;
@@ -618,7 +613,7 @@ body {
     font-weight: 500;
 }
 
-.sw-txt-14 {
+.sw-txt-14, .fz-14 {
     font-size: 14px;
     font-size: 14px;
     font-size: 1.4rem;
@@ -1128,7 +1123,7 @@ body {
 }
 
 .mt16 {
-  margin-top: 6px !important;
+  margin-top: 16px !important;
 }
 
 .ml30 {
@@ -1170,4 +1165,8 @@ body {
 .fz-16 {
   font-size: 16px!important;
   font-size: 1.6rem!important;
+}
+
+.fs100 {
+  font-size: 100%!important;
 }
