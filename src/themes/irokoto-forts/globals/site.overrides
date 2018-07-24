@@ -967,7 +967,7 @@ body {
 }
 
 .h47 {
-  height: 47px;
+  height: 47px !important;
 }
 
 .m10 {
