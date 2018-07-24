@@ -1174,3 +1174,7 @@ body {
 .fs100 {
   font-size: 100%!important;
 }
+
+.alias-input-select i:hover {
+  cursor: pointer;
+}
