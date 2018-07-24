@@ -1175,6 +1175,14 @@ body {
   margin-left: 60px;
 }
 
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.lt-027 {
+  letter-spacing: 0.027em;
+}
+
 .fs100 {
   font-size: 100%!important;
 }
