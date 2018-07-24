@@ -1186,3 +1186,7 @@ body {
 .fs100 {
   font-size: 100%!important;
 }
+
+.fw-un {
+  font-weight: unset !important;
+}
