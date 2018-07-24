@@ -1178,3 +1178,15 @@ body {
 .mt25 {
   margin-top: 25px !important;
 }
+
+.mt12 {
+  margin-top: 12px !important;
+}
+
+.mt23 {
+  margin-top: 23px !important;
+}
+
+.mt8 {
+  margin-top: 8px !important;
+}
