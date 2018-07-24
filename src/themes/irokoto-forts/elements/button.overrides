@@ -304,6 +304,11 @@
     border-radius: 22px;
 }
 
+.sw-btn-report-form {
+  margin-top: 32px;
+  text-align: center;
+}
+
 .ui.button.sw-btn-m {
     padding: 16px 0 18px;
     width: 200px;
