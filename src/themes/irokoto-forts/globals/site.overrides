@@ -1204,3 +1204,32 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+.display-table {
+  display: table-caption;
+}
+
+.w1120 {
+  width: 1120px !important;
+}
+
+.adm-st-item-date {
+    text-align: left;
+    .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
+      padding: 12px 12px 13px 12px;
+      width: 155px;
+      font-weight: 500;
+      font-size: 14px;
+      font-size: 1.4rem;
+      color: #6d7984;
+      letter-spacing: 0.025em;
+      height: 47px;
+      text-align: center;
+    }
+}
+
+.adm-st-item-nt {
+    float: left;
+    text-align: left;
+    margin: 0;
+}
