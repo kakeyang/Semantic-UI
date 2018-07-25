@@ -754,7 +754,7 @@ body {
 }
 
 .item_text_title-new {
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
   width: 640px;
   color: #333333;
   font-size: 16px;
@@ -1187,6 +1187,26 @@ body {
   font-size: 100%!important;
 }
 
+.alias-input-select i:hover {
+  cursor: pointer;
+}
+
+.mt25 {
+  margin-top: 25px !important;
+}
+
+.mt12 {
+  margin-top: 12px !important;
+}
+
+.mt23 {
+  margin-top: 23px !important;
+}
+
+.mt8 {
+  margin-top: 8px !important;
+}
+
 .lh14 {
     line-height: 1.4rem !important;
 }
@@ -1263,4 +1283,8 @@ body {
 
 .st-tab .st-tab_contents_tweet.mt42, .st-tab .st-tab_contents_timeline.mt42 {
   margin-top: 42px!important;
+}
+
+.pd-bt-14-15 {
+  padding: 14px 0 15px !important;
 }

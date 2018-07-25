@@ -268,8 +268,8 @@
 }
 
 .st-table-dm {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 15px !important;
+    font-size: 1.5rem !important;
 
     .st-table_row-label th.st-table_row_column-dm-title,
     .st-table_row-label th.st-table_row_column-dm-campaign {
@@ -283,10 +283,12 @@
         color: #fff;
         background-color: #86b1dc;
         text-align: center;
+        font-weight: unset !important;
     }
 
     .st-table_row_column-dm-start, .st-table_row_column-dm-end {
         width: 200px;
+        text-align: center !important;
     }
 
     .st-table_row_column-dm-title, .st-table_row_column-dm-campaign {
@@ -336,6 +338,10 @@
     .st-table_row-normal:hover .st-table_row_column-report-confirm {
       border-right: 1px solid #86b1dc !important;
     }
+
+    .st-table_row-normal td {
+        padding: 20px 0;
+    }
 }
 
 .ui.table.st-table-dm {
@@ -381,7 +387,7 @@
     }
 
     td.st-table_row_column-campaign-extraction-list {
-        padding: 30px 0 30px 20px !important;
+        padding: 20px 0 20px 20px !important;
         width: 480px;
         text-align: left;
         line-height: 1.5;
