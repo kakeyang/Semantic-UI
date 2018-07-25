@@ -359,3 +359,15 @@
         height: 100%;
     }
 }
+
+.st-item-date {
+  .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
+    width: 170px;
+    padding: 12px 12px 13px 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.025em;
+    height: 47px;
+  }
+}
