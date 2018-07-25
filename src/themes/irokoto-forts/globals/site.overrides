@@ -1225,6 +1225,65 @@ body {
     vertical-align: middle;
 }
 
+.home-user-info .user-twitter-name {
+  line-height: 2rem !important;
+}
+
+.home-user-info .user-twitter-id {
+  line-height: 1.2rem;
+}
+
+.home-user-info .user-twitter-follower {
+  display: flex;
+}
+
+.home-user-info .user-twitter-follower > div {
+  line-height: 1.2rem;
+  vertical-align: middle;
+}
+
+.home-user-info {
+  display: grid;
+  margin-top: 15px !important;
+  padding-left: 0 !important;
+  margin-left: 25px;
+  color: #333333;
+}
+
+.home-user-avatar {
+  padding-right: 0 !important;
+}
+
+.notices-top .adm-contents_info_btn {
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.notices-top .adm-contents_info {
+  line-height: 1;
+  margin-top: -1px;
+  padding-bottom: 30px !important;
+}
+
+.lh14 {
+  line-height: 1.4rem;
+}
+
+.pd-t55, .st-tab .st-tab_contents.pd-t55 {
+    padding-top: 55px!important;
+}
+
+.lh36 {
+    line-height: 3.6rem!important;
+}
+
+.sw-subttl-16:after {
+    top: -1px!important;
+}
+
+.st-tab .st-tab_contents_tweet.mt42, .st-tab .st-tab_contents_timeline.mt42 {
+  margin-top: 42px!important;
+}
 
 .display-table {
   display: table-caption;

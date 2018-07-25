@@ -606,4 +606,8 @@
     tbody tr td.notices-top .adm-contents_info {
         padding-bottom: 15px;
     }
+
+    .home-user-info .user-twitter-follower p {
+        line-height: 2.4rem;
+    }
 }
