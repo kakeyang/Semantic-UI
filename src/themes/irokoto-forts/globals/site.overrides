@@ -1260,3 +1260,7 @@ body {
 .sw-subttl-16:after {
     top: -1px!important;
 }
+
+.st-tab .st-tab_contents_tweet.mt42, .st-tab .st-tab_contents_timeline.mt42 {
+  margin-top: 42px!important;
+}
