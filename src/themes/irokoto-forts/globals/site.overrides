@@ -1187,6 +1187,22 @@ body {
   font-size: 100%!important;
 }
 
+.mt25 {
+  margin-top: 25px !important;
+}
+
+.mt12 {
+  margin-top: 12px !important;
+}
+
+.mt23 {
+  margin-top: 23px !important;
+}
+
+.mt8 {
+  margin-top: 8px !important;
+}
+
 .lh14 {
     line-height: 1.4rem !important;
 }
