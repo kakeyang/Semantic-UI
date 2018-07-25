@@ -1220,3 +1220,7 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+.pd-bt-14-15 {
+  padding: 14px 0 15px !important;
+}
