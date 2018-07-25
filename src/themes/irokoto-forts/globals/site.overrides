@@ -1218,7 +1218,7 @@ body {
 }
 
 .home-user-info .user-twitter-follower > div {
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   vertical-align: middle;
 }
 
@@ -1235,15 +1235,28 @@ body {
 }
 
 .notices-top .adm-contents_info_btn {
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   letter-spacing: 0;
 }
 
 .notices-top .adm-contents_info {
   line-height: 1;
+  margin-top: -1px;
   padding-bottom: 30px !important;
 }
 
 .lh14 {
   line-height: 1.4rem;
+}
+
+.pd-t55, .st-tab .st-tab_contents.pd-t55 {
+    padding-top: 55px!important;
+}
+
+.lh36 {
+    line-height: 3.6rem!important;
+}
+
+.sw-subttl-16:after {
+    top: -1px!important;
 }
