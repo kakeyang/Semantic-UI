@@ -346,6 +346,11 @@
   }
 }
 
+.st-input-iquiry >input {
+  height: 47px;
+  margin-bottom: 0px !important;
+}
+
 .ui.form.st-edit-account-user-form {
     .inline.field .ui.input input[type=text],
     .inline.field .ui.input input[type=password] {
@@ -360,5 +365,9 @@
     width: 170px;
     padding: 12px 12px 13px 12px;
     text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.025em;
+    height: 47px;
   }
 }
