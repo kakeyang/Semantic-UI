@@ -1187,6 +1187,10 @@ body {
   font-size: 100%!important;
 }
 
+.alias-input-select i:hover {
+  cursor: pointer;
+}
+
 .mt25 {
   margin-top: 25px !important;
 }
