@@ -754,7 +754,7 @@ body {
 }
 
 .item_text_title-new {
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
   width: 640px;
   color: #333333;
   font-size: 16px;
@@ -1191,6 +1191,22 @@ body {
   cursor: pointer;
 }
 
+.mt25 {
+  margin-top: 25px !important;
+}
+
+.mt12 {
+  margin-top: 12px !important;
+}
+
+.mt23 {
+  margin-top: 23px !important;
+}
+
+.mt8 {
+  margin-top: 8px !important;
+}
+
 .lh14 {
     line-height: 1.4rem !important;
 }
@@ -1207,4 +1223,8 @@ body {
     margin: 30px -35px 0 0;
     text-align: center;
     vertical-align: middle;
+}
+
+.pd-bt-14-15 {
+  padding: 14px 0 15px !important;
 }
