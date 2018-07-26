@@ -311,7 +311,7 @@
       text-align: left;
       height: 37px;
       font: inherit;
-      font-size: 107%;
+      font-size: 100%;
     }
 
     .st-table_row-normal:hover .st-table_row_column-report-title {
@@ -325,14 +325,14 @@
     .st-table_row_column-report-start {
       width: 250px;
       font: inherit;
-      font-size: 107%;
+      font-size: 100%;
     }
 
     .st-table_row_column-report-confirm {
       width: 185px;
       text-align: center !important;
       font: inherit;
-      font-size: 107%;
+      font-size: 100%;
     }
 
     .st-table_row-normal:hover .st-table_row_column-report-confirm {

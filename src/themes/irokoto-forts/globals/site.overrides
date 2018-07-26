@@ -1314,6 +1314,10 @@ body {
   padding: 14px 0 15px !important;
 }
 
+.lh24 {
+    line-height: 2.4rem!important;
+}
+
 .ml3 {
   margin-left: 3px !important;
 }
