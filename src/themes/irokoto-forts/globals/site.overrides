@@ -908,10 +908,6 @@ body {
   margin-top: 45px !important;
 }
 
-.mt50 {
-  margin-top: 50px !important;
-}
-
 .w535 {
   width: 535px !important;
 }
@@ -1324,4 +1320,12 @@ body {
 
 .st-font-twitter-user >a:hover {
   color: #3b94d9 !important;
+}
+
+.lh24 {
+    line-height: 2.4rem!important;
+}
+
+.ml3 {
+  margin-left: 3px !important;
 }
