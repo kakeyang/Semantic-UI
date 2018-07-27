@@ -1321,3 +1321,7 @@ body {
 .ml3 {
   margin-left: 3px !important;
 }
+
+.black {
+  color: #616e7a !important;
+}
