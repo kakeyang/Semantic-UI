@@ -1314,6 +1314,14 @@ body {
   padding: 14px 0 15px !important;
 }
 
+.st-font-twitter-user {
+  font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif !important;
+}
+
+.st-font-twitter-user >a:hover {
+  color: #3b94d9 !important;
+}
+
 .lh24 {
     line-height: 2.4rem!important;
 }
