@@ -103,6 +103,7 @@
             margin-left: auto;
             margin-right: 0;
             max-height: 640px;
+            min-height: 640px;
             overflow-x: hidden;
             overflow-y: scroll;
         }
