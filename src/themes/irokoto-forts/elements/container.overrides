@@ -120,7 +120,8 @@
     .ui.container.user-account-info,
     .ui.container.customers-list,
     .ui.container.notice-list,
-    .ui.container.twitter-screen {
+    .ui.container.twitter-screen,
+    .ui.container.user-list-extractions {
         margin-left: 0!important;
         margin-right: 0!important;
     }
@@ -562,7 +563,7 @@
 w1200, .ui.container.user-campaign, .ui.container.DM-page,
 .ui.container.campaign-report, .ui.container.user-account-info,
 .ui.container.customers-list, .ui.container.notice-list,
-.ui.container.twitter-screen {
+.ui.container.twitter-screen, .ui.container.user-list-extractions {
     width: 1200px!important;
     min-width: 1200px!important;
 }

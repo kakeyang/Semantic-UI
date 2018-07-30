@@ -383,6 +383,7 @@
 
     .st-table_row_column-campaign-extraction-number {
         width: 90px;
+        min-width: 90px;
     }
 
     .st-table_row_column-campaign-extraction-delete {
@@ -407,6 +408,7 @@
 
     .st-table_row_column-campaign-extraction-date {
         width: 90px;
+        min-width: 90px;
     }
 
     .st-table_row_column-campaign-extraction-number {
