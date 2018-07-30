@@ -5,14 +5,69 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
-    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
+    .notice-list .ui.table.notice-table-list:not(.unstackable) tr>td,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>td,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>th,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>td,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>th,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>td,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>th,
+    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>td,
+    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>td, {
         width: auto!important;
         display: table-cell!important;
+    }
+
+    .customers-list .ui.table.customer-table-confirm:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-confirm:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>th {
+        display: table-cell!important;
+    }
+
+    .customers-list .ui.table.customer-table-confirm:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-confirm:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>th,
+    .notice-list .ui.table.notice-table-list:not(.unstackable) tr>td,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>td,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>th,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>td,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>th,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>td,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
+    .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
+    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>td {
+        border: 1px solid #f1f5f9;
+    }
+
+    .customers-list .ui.table.customer-table-confirm:not(.unstackable) tr,
+    .twitter-screen .ui.table.twitter-app-table-confirm:not(.unstackable) tr,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr,
+    .notice-list .ui.table.notice-table-list:not(.unstackable) tr,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr,
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
+    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tbody tr {
+        display: table-row!important;
+    }
+
+    .customers-list .ui.table.customer-table-confirm:not(.unstackable) tbody,
+    .twitter-screen .ui.table.twitter-app-table-confirm:not(.unstackable) tbody,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tbody,
+    .notice-list .ui.table.notice-table-list:not(.unstackable) tbody,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tbody,
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tbody,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tbody,
+    .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
+    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tbody {
+        display: table-row-group!important;
     }
 
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
@@ -20,11 +75,17 @@
         border: 1px solid #fff!important;
     }
 
-    .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
     .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>td {
         border: 1px solid #f1f5f9;
         padding: 30px 0 30px 20px;
         display: table-cell!important;
+    }
+
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>td,
+    .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>th,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>td,
+    .customers-list .ui.table.customer-table-list:not(.unstackable) tr>th  {
+        padding: 25px 0!important;
     }
 
     .ui.st-table-liquid:not(.unstackable) tbody,
@@ -39,6 +100,8 @@
         width: 1200px!important;
     }
 
+    .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>th,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
     .ui.st-table-extractions:not(.unstackable) tr.st-table_row>th {
         border: 1px solid #fff;
@@ -50,6 +113,24 @@
     .ui.list-extractions td.st-table_row_column-campaign-extraction-list,
     .ui.list-extractions th.st-table_row_column-campaign-extraction-list {
         width: 480px!important;
+    }
+
+    .ui.container.DM-page, .ui.container.user-campaign,
+    .ui.container.campaign-report,
+    .ui.container.user-account-info,
+    .ui.container.customers-list,
+    .ui.container.notice-list,
+    .ui.container.twitter-screen {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    .ui.table:not(.unstackable) td:first-child, .ui.table:not(.unstackable) th:first-child {
+        font-weight: 500!important;
+    }
+
+    .customer-table-confirm td.collapsing.st-table_row_column-title-confirm {
+        width: 1px!important;
     }
 }
 
@@ -475,4 +556,12 @@
             }
         }
     }
+}
+
+w1200, .ui.container.user-campaign, .ui.container.DM-page,
+.ui.container.campaign-report, .ui.container.user-account-info,
+.ui.container.customers-list, .ui.container.notice-list,
+.ui.container.twitter-screen {
+    width: 1200px!important;
+    min-width: 1200px!important;
 }

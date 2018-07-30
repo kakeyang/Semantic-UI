@@ -1321,3 +1321,7 @@ body {
 .ml3 {
   margin-left: 3px !important;
 }
+
+.mw-1200, .st-header.mw-1200 {
+    min-width: 1200px!important;
+}

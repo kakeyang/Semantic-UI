@@ -114,7 +114,7 @@
     .st-table_row-normal:hover .st-table_row_column-edit,
     .st-table_row-normal:hover .st-table_row_column-campaign-extraction-csv,
     .st-table_row-normal:hover .st-table_row_column-dm-report {
-        border-right: 1px solid #86b1dc;
+        border-right: 1px solid #86b1dc!important;
     }
 
     .st-table_row_column-edit .sw-btn-blue:hover {
@@ -143,7 +143,7 @@
     }
 
     .st-table_row-normal:hover .st-table_row_column-title {
-        border-left: 1px solid #86b1dc;
+        border-left: 1px solid #86b1dc!important;
     }
 
     .st-table_row-normal:hover .st-table_bd_right{
@@ -157,7 +157,7 @@
     }
 
     .st-table_row-normal:hover .st-table_row_column-user-campaign-title {
-        border-left: 1px solid #86b1dc;
+        border-left: 1px solid #86b1dc!important;
     }
 
     .sbm-campaign {
@@ -181,7 +181,8 @@
     }
 
     .st-table_row_column-edit-twitter-app {
-        width: 180px;
+        width: 180px!important;
+        min-height: 180px!important;
     }
 
     .st-table_row-normal:hover .st-table_row_column-edit-twitter-app {
@@ -189,19 +190,27 @@
     }
 
     .st-table_row_column-number-twitter-app {
-        width: 140px;
+        width: 140px!important;
+        min-height: 140px!important;
     }
 
     .st-table_row_column-name-twitter-app {
-        width: 815px;
+        width: 815px!important;
+        min-height: 815px!important;
     }
 
     .st-table_row_column-id-twitter-app {
-        width: 63px;
+        width: 63px!important;
+        min-height: 63px!important;
     }
 
     .st-table_row-normal:hover .st-table_row_column-id-twitter-app {
         border-left: 1px solid #7ba6d1;
+    }
+
+    .st-table_row_column-tw-app-title {
+        width: 253px!important;
+        min-height: 238px!important;
     }
 
     .st-table_row_column-tw-app {
@@ -211,7 +220,7 @@
     }
 
     .st-table_row-normal:hover .st-table_row_column-tw-app {
-        border-left: 1px solid #7ba6d1;
+        border-left: 1px solid #7ba6d1!important;
     }
 }
 
@@ -234,6 +243,7 @@
   .st-table_row_column-dm-desc-title, .st-table_row_column-dm-desc-campaign {
     padding: 20px 0 20px 20px !important;
     width: 400px;
+    min-width: 400px;
     text-align: left;
   }
 
