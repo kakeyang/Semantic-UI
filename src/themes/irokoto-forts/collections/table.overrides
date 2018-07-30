@@ -285,7 +285,8 @@
     .st-table_row-label th.st-table_row_column-dm-title,
     .st-table_row-label th.st-table_row_column-dm-campaign {
         padding: 7px 0 7px 7px !important;
-        width: 310px;
+        width: 310px!important;
+        min-width: 310px;
         text-align: center;
     }
 

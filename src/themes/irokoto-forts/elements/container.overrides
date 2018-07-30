@@ -10,8 +10,6 @@
     .customers-list .ui.table.customer-table-list:not(.unstackable) tr>th,
     .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>td,
     .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr>th,
-    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>td,
-    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
     .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>th,
@@ -25,6 +23,8 @@
 
     .customers-list .ui.table.customer-table-confirm:not(.unstackable) tr>td,
     .twitter-screen .ui.table.twitter-app-table-confirm:not(.unstackable) tr>td,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>td,
+    .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
     .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>td,
     .twitter-screen .ui.table.twitter-app-table-list:not(.unstackable) tr>th {
         display: table-cell!important;
