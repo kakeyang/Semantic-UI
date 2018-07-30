@@ -112,6 +112,7 @@
 
     .st-table_row-normal:hover .st-hv-right,
     .st-table_row-normal:hover .st-table_row_column-edit,
+    .st-table_row-normal:hover .st-table_row_column-edit-campaign-right,
     .st-table_row-normal:hover .st-table_row_column-campaign-extraction-csv,
     .st-table_row-normal:hover .st-table_row_column-dm-report {
         border-right: 1px solid #86b1dc!important;

@@ -15,8 +15,8 @@
     .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>td,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr>th,
-    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>td,
-    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>th,
+    .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tr>td,
+    .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tr>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>td, {
         width: auto!important;
@@ -42,7 +42,7 @@
     .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>td,
     .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr>th,
     .ui.st-table-extractions:not(.unstackable) tr.st-table_row.record-extraction>th,
-    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tr>td {
+    .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tr>td {
         border: 1px solid #f1f5f9;
     }
 
@@ -54,7 +54,7 @@
     .campaign-report .ui.table.campaign-report-table:not(.unstackable) tr,
     .DM-page .ui.table.st-table-dm-list:not(.unstackable) tr,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tr,
-    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tbody tr {
+    .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tbody tr {
         display: table-row!important;
     }
 
@@ -66,7 +66,7 @@
     .campaign-report .ui.table.campaign-report-table:not(.unstackable) tbody,
     .DM-page .ui.table.st-table-dm-list:not(.unstackable) tbody,
     .dashboard_user .adm-contents-inner-top .ui.table.dashboard-header:not(.unstackable) tbody,
-    .user-campaign-list .ui.table.user-campaign-list-table:not(.unstackable) tbody {
+    .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tbody {
         display: table-row-group!important;
     }
 
