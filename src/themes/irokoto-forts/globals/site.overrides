@@ -1333,3 +1333,17 @@ body {
 .black {
   color: #616e7a !important;
 }
+
+#top-panel-campaigns {
+  position: relative;
+}
+
+#top_cursor_position {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+
+.mh80 {
+  min-height: 800px;
+}
