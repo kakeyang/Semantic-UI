@@ -230,7 +230,7 @@ body {
   width: 100%;
 }
 
-.mt20 {
+.mt20, .ui.button.mt20 {
   margin-top: 20px !important;
 }
 
@@ -714,7 +714,7 @@ body {
 }
 
 .dp-block {
-  display: block;
+  display: block!important;
 }
 
 .hidden {
@@ -1314,6 +1314,14 @@ body {
   padding: 14px 0 15px !important;
 }
 
+.st-font-twitter-user {
+  font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif !important;
+}
+
+.st-font-twitter-user >a:hover {
+  color: #3b94d9 !important;
+}
+
 .lh24 {
     line-height: 2.4rem!important;
 }
@@ -1324,4 +1332,22 @@ body {
 
 .mw-1200, .st-header.mw-1200 {
     min-width: 1200px!important;
+}
+
+.black {
+  color: #616e7a !important;
+}
+
+#top-panel-campaigns {
+  position: relative;
+}
+
+#top_cursor_position {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+
+.mh80 {
+  min-height: 800px;
 }

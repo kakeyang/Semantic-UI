@@ -458,6 +458,7 @@
 
     .st-table_row th.st-table_row_column-liquid-user {
         width: 235px;
+        min-width: 235px;
     }
 
     .st-table_row_column-liquid-tweet {
@@ -488,6 +489,7 @@
     .st-table_row td.st-table_row_column-liquid-user {
         padding: 10px;
         width: 235px;
+        min-width: 235px;
         text-align: left;
     }
 
@@ -516,24 +518,15 @@
         outline: none;
     }
 
-    .st-table_row td.st-table_row_column-liquid-user .user_id {
-        margin: 0 0 0 10px;
-        width: 57%;
-        display: inline-block;
-        vertical-align: middle;
-        color: #2b7bb9;
-        font-size: 14px;
-        font-size: 14px;
-        font-size: 1.4rem;
-        word-wrap: break-word;
-    }
-
     .st-table_row td.st-table_row_column-liquid-user .user_twitter {
-        vertical-align: middle;
+        margin: 0 0 0 10px;
+        width: 131px;
         display: inline-block;
-        width: 90px;
-        font-size: 1.4rem;
+        vertical-align: middle;
         color: #2b7bb9;
+        font-size: 14px;
+        font-size: 14px;
+        font-size: 1.4rem;
         word-wrap: break-word;
     }
 
@@ -577,7 +570,9 @@
     .st-table_row_column-liquid-retweet,
     .st-table_row_column-liquid-follow,
     .st-table_row_column-liquid-quotetweet {
-        width: 100px;
+        width: 80px;
+        max-width: 80px;
+        min-width: 80px;
     }
 }
 
