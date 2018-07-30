@@ -230,7 +230,7 @@ body {
   width: 100%;
 }
 
-.mt20 {
+.mt20, .ui.button.mt20 {
   margin-top: 20px !important;
 }
 
@@ -714,7 +714,7 @@ body {
 }
 
 .dp-block {
-  display: block;
+  display: block!important;
 }
 
 .hidden {
@@ -1328,6 +1328,10 @@ body {
 
 .ml3 {
   margin-left: 3px !important;
+}
+
+.mw-1200, .st-header.mw-1200 {
+    min-width: 1200px!important;
 }
 
 .black {
