@@ -319,7 +319,8 @@
 
     .st-table_row_column-report-title {
       padding: 7px 0 7px 7px !important;
-      width: 765px;
+      width: 765px!important;
+      min-width: 765px!important;
       text-align: left;
       height: 37px;
       font: inherit;

@@ -17,7 +17,7 @@
     .user-campaign .ui.table.user-campaign-list-table:not(.unstackable) tr>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>th,
     .ui.st-table-liquid:not(.unstackable) tr.st-table_row>td, {
-        width: auto!important;
+        width: auto;
         display: table-cell!important;
     }
 
