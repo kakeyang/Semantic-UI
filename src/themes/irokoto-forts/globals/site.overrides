@@ -1322,6 +1322,10 @@ body {
   color: #3b94d9 !important;
 }
 
+.st-font-twitter-user >a:focus {
+  border: none;
+}
+
 .lh24 {
     line-height: 2.4rem!important;
 }
@@ -1346,4 +1350,8 @@ body {
 
 .mh80 {
   min-height: 800px;
+}
+
+.st-bd-tw >a:focus {
+  border: none;
 }
