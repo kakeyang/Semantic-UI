@@ -324,3 +324,22 @@
     margin: 0 30px 0 0;
     display: inline-block;
 }
+
+.sw-disable-btn {
+  box-shadow: none !important;
+}
+
+.sw-disable-btn:hover {
+  cursor: default !important;
+  background-color: #6d7984 !important;
+  color: #fff !important;
+}
+
+.sw-disable-btn:focus {
+  background-color: #6d7984 !important;
+}
+
+.ui.button.sw-disable-btn:active {
+  background-color: #6d7984 !important;
+  box-shadow: none !important;
+}
