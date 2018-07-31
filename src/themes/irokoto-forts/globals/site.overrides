@@ -508,6 +508,8 @@ body {
   color: #333333;
   line-height: 1.6rem;
   display: inline-grid;
+  width: 486px;
+  margin-left: -20px;
 }
 
 .w430 {

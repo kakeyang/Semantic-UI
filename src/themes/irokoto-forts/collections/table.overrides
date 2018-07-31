@@ -112,6 +112,7 @@
 
     .st-table_row-normal:hover .st-hv-right,
     .st-table_row-normal:hover .st-table_row_column-edit,
+    .st-table_row-normal:hover .st-table_row_column-edit-campaign-right,
     .st-table_row-normal:hover .st-table_row_column-campaign-extraction-csv,
     .st-table_row-normal:hover .st-table_row_column-dm-report {
         border-right: 1px solid #86b1dc!important;
@@ -284,7 +285,8 @@
     .st-table_row-label th.st-table_row_column-dm-title,
     .st-table_row-label th.st-table_row_column-dm-campaign {
         padding: 7px 0 7px 7px !important;
-        width: 310px;
+        width: 310px!important;
+        min-width: 310px;
         text-align: center;
     }
 
@@ -317,7 +319,8 @@
 
     .st-table_row_column-report-title {
       padding: 7px 0 7px 7px !important;
-      width: 765px;
+      width: 765px!important;
+      min-width: 765px!important;
       text-align: left;
       height: 37px;
       font: inherit;
@@ -382,6 +385,7 @@
 
     .st-table_row_column-campaign-extraction-number {
         width: 90px;
+        min-width: 90px;
     }
 
     .st-table_row_column-campaign-extraction-delete {
@@ -406,6 +410,7 @@
 
     .st-table_row_column-campaign-extraction-date {
         width: 90px;
+        min-width: 90px;
     }
 
     .st-table_row_column-campaign-extraction-number {
