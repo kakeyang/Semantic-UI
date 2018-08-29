@@ -978,10 +978,11 @@ body {
 
 .word-break {
   word-break: break-word;
+  word-break: break-all;
 }
 
 .break-all {
-    word-break: break-all;
+  word-break: break-all;
 }
 
 .pr20 {
