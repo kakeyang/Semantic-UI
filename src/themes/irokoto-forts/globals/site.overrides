@@ -1285,7 +1285,7 @@ body {
 }
 
 .display-table {
-  display: table-caption;
+  display: table;
 }
 
 .w1120 {
