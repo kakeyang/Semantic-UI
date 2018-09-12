@@ -1,0 +1,26 @@
+.ui.header {
+  font-family: @headerFont;
+}
+
+.ui.header.notice-title {
+  font-size: 1.6rem;
+}
+
+.user-login-logo {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  display: inline-grid;
+}
+
+.st-header_logo.user-login-logo a.st-header_logo_anchor {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+h1.user-login-header {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8rem;
+  line-height: 2.6rem;
+}

@@ -1,0 +1,37 @@
+.ui.circular.image.img-user {
+  width: 140px;
+  height: 140px;
+}
+
+.st-table-liquid {
+    .st-table_row td.st-table_row_column-liquid-user .user_image:after {
+        content: "";
+        width: 72px;
+        height: 72px;
+        background-image: url(../images/icn_cut-small.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .st-table_row td.st-table_row_column-liquid-user .user_image {
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-size: 14px;
+        font-size: 1.4rem;
+        position: relative;
+    }
+}
+
+.emoji_input {
+  span > img {
+    vertical-align: bottom;
+  }
+}

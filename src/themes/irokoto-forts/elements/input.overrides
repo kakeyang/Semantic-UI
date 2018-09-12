@@ -1,0 +1,373 @@
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input {
+  margin: 0 0 10px 0;
+  background-color: #fff;
+  padding: 15px 15px 15px 40px;
+  display: block;
+  font-size: 15px;
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-family: "Noto Sans Japanese";
+  letter-spacing: 0.05em;
+  border: 1px solid #dde3e9;
+  border-radius: 4px;
+  outline: none;
+  color: #000;
+}
+
+.ui.form .login-field{
+  width: 400px;
+}
+
+.ui.form .field.field input:-webkit-autofill {
+  border: none;
+}
+
+.ui.form input:not([type]):focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=email]:focus, .ui.form input[type=file]:focus, .ui.form input[type=number]:focus, .ui.form input[type=password]:focus, .ui.form input[type=search]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=text]:focus, .ui.form input[type=time]:focus, .ui.form input[type=url]:focus {
+  border: 1px solid #86b1dc !important;
+}
+
+.ui.icon.input>i.icon {
+  color: #86b1dc;
+  font-size: 1.5rem;
+  line-height: 0.5rem;
+}
+
+.ui.form {
+    .inline.field .ui.input input[type="text"]:placeholder-shown,
+    .inline.field .ui.input input[type="password"]:placeholder-shown,
+    .ui.form .inline.field .ui.input .react-datepicker-wrapper .react-datepicker__input-container {
+        color: rgb(203, 209, 215);
+    }
+    .inline.field .ui.input input[type="text"],
+    .inline.field .ui.input input[type="password"],
+    .inline.field .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
+        width: 320px;
+        color: rgb(109, 121, 132);
+        font-size: 1.4rem;
+        font-family: "Noto Sans Japanese";
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        padding: 12px 12px 13px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(221, 227, 233);
+        border-image: initial;
+        border-radius: 4px;
+        outline: none;
+    }
+}
+
+.ui.label.log-contents_form_forget {
+  font-size: 14px !important;
+  font-size: 14px !important;
+  font-size: 1.4rem !important;
+  position: relative;
+  color: #333333 !important;
+  font-weight: normal !important;
+  margin-left: 22px !important;
+  letter-spacing: .00rem;
+  background: 0 0!important;
+  border: none!important;
+  padding: 0 !important;
+  margin-top: 25px;
+}
+
+.log-contents_form_forget:hover {
+  text-decoration: underline;
+  color: #333333;
+}
+
+.log-contents_form_forget:after {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-image: url(../images/icn_forget-arrow.png);
+  background-size: 13px 13px;
+  position: absolute;
+  top: 2px;
+  left: -20px;
+}
+
+.st-form-dm .item_textarea textarea.mt-10 {
+    margin: 10px 0 0 0;
+}
+
+.st-form-dm .item_textarea textarea {
+    width: 460px!important;
+    height: 195px;
+}
+
+.st-form .item_textarea textarea {
+    padding: 12px 12px 13px 12px;
+    color: #6d7984;
+    font-size: 14px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: "Noto Sans Japanese";
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    border: 1px solid #dde3e9;
+    border-radius: 4px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.st-form-dm .item_textarea {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.size-div {
+    box-sizing: border-box;
+    height: 195px;
+    width: 460px;
+    border: 1px solid rgba(34,36,38,.15);
+    overflow: auto;
+    margin-top: 4px;
+    padding: 11px 14px;
+    text-align: left;
+}
+
+.ui.form .size-div:focus {
+    border: 1px solid #86b1dc;
+    outline-width: 0px;
+}
+
+.st-form-dm {
+    .item_select-short.item_time>div {
+        display: inline-block;
+    }
+
+    .item_select-short.item_time .date-picker-input {
+        width: 170px;
+        height: 47px;
+    }
+}
+
+.st-form-dm .st-form_item .item_text, .item_text {
+    margin: 8px 0 0 0;
+    width: 640px;
+    color: #333333;
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    float: left;
+}
+
+.dl-flex, .st-form-dm .dl-flex, .st-form-retweet .dl-flex {
+    display: inline-flex;
+}
+
+.lh-2 {
+    line-height: 2rem;
+}
+
+.lh-3 {
+    line-height: 3rem;
+}
+
+.vl-middle {
+    vertical-align: middle;
+}
+
+.st-form-retweet .item_input input[type="number"] {
+    width: 80px!important;
+}
+
+.st-form-retweet {
+    .item_select-short:after {
+        border-style: none!important;
+    }
+
+    .item_select-short .ui.dropdown {
+        width: 170px;
+        min-width: 170px;
+    }
+}
+
+.item_input_cr_ex {
+  display: table;
+}
+
+.item_input_cr_ex input[type="text"] {
+  margin: 0 !important;
+  width: 535px !important;
+  color: #333333 !important;
+  padding: 12px 12px 13px 12px !important;
+}
+
+.st-table-liquid {
+    .st-table_row td.st-table_row_column-liquid-select .select_label:before {
+        content: "";
+        display: block;
+        width: 12px;
+        height: 10px;
+        background-image: url(../images/icn_checkbox.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        transition: 0.2s;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        z-index: 2;
+    }
+
+    .st-table_row td.st-table_row_column-liquid-select .select_label:after {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border: 1px solid #bfbfbf;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        transition: 0.2s;
+        z-index: 1;
+    }
+
+    .st-table_row td.st-table_row_column-liquid-select .checked.select_label:before {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+}
+
+
+.st-form-login-admin input[type="text"] {
+  height: 54px;
+  margin: 0 0 10px 0 !important;
+  /*background-image: url(../images/icn_id.png) !important;*/
+  background-repeat: no-repeat !important;
+  background-size: 14px 19px !important;
+  background-position: 14px 16px !important;
+  transition: .2s !important;
+}
+
+.st-form-login-admin:after {
+  height: 54px;
+  margin: 0 0 10px 0 !important;
+  /*background-image: url(../images/icn_id.png) !important;*/
+  background-repeat: no-repeat !important;
+  background-size: 14px 19px !important;
+  background-position: 14px 16px !important;
+  transition: .2s !important;
+}
+
+.st-form-login-admin input[type="password"] {
+  height: 54px;
+  margin-bottom: 0px !important;
+  background-image: url(../images/icn_pw.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 19px !important;
+  background-position: 13px 17px !important;
+  transition: .2s !important;
+}
+
+.ui.form .adm-contents_form-info_item textarea {
+  padding: 12px 12px 13px 12px;
+  margin: 20px 0 0 0;
+  color: #6d7984;
+  font-size: 14px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: "Noto Sans Japanese";
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  border: 1px solid #dde3e9;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.edit-form-btns {
+  margin: 30px -35px 0 0;
+  .ui.button {
+    margin: 0px auto 0;
+  }
+}
+
+.ui.form.notice-form .inline.field  span.deliver_date_edit_notice_tag {
+  margin-top: 16px;
+  line-height: 1.4rem;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item {
+  margin-bottom: 20px !important;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_label {
+  margin: 13px 20px 0 0;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_text_date {
+  margin: 12px 0 0 0;
+}
+
+.adm-contents_form-info.confirm-edit-notice .adm-contents_form-info_item .item_text_detail {
+  margin: 10px 0 0 0;
+  line-height: 2.5rem;
+}
+
+.ui.form .adm-contents_form-info_item textarea.content-notice-form {
+  line-height: 2rem;
+  :focus {
+    color: #6d7984 !important;
+  }
+}
+
+.ui.form .adm-contents_form-info_item textarea.content-notice-form:focus {
+  color: #6d7984 !important;
+}
+
+.adm-contents .adm-contents-inner-success {
+  padding: 40px 0 100px 0;
+}
+
+.user-login-input input {
+  line-height: 1.5rem !important;
+}
+
+.ui.form.login-form.user-login-form {
+  line-height: 1.4rem;
+  .field>label {
+    margin: 0;
+  }
+}
+
+.st-input-iquiry >input {
+  height: 47px;
+  margin-bottom: 0px !important;
+}
+
+.ui.form.st-edit-account-user-form {
+    .inline.field .ui.input input[type=text],
+    .inline.field .ui.input input[type=password] {
+        margin: 0 10px 0 10px;
+        color: #333333;
+        height: 100%;
+    }
+}
+
+.st-item-date {
+  .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
+    width: 170px;
+    padding: 12px 12px 13px 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.025em;
+    height: 47px;
+  }
+}

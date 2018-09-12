@@ -1,0 +1,50 @@
+.ui.label.round {
+  border-radius: 12px;
+}
+
+.ui.label {
+  background-color: #87b2dc;
+  color: #fff;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  padding: 6px 12px;
+  margin: 0 10px 0 0;
+}
+
+.sw-subttl-14 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.sw-subttl {
+  padding: 0 0 0 13px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.sw-subttl-14:after {
+    top: -3px;
+}
+.sw-subttl:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #86b1dc;
+    position: absolute;
+    left: 0;
+}
+
+.irokoto-bg {
+  background-color: @irokoto !important;
+}
+
+.not-ok {
+  background-color: #676767 !important;
+}
