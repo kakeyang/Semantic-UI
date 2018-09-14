@@ -201,9 +201,9 @@
     display: inline-block!important;
 }
 
-.ui.button.sw-btn-retweet-245 {
-    padding: 19px 0 20px;
-    width: 245px;
+.ui.button.sw-btn-retweet-140 {
+    padding: 10px 25px 10px 25px;
+    width: 140px;
     font-size: 16px;
     font-size: 16px;
     font-size: 1.6rem;
