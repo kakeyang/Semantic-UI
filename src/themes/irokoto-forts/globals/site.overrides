@@ -483,6 +483,10 @@ body {
   .icon-header-4:after {
     background-image: url(../images/icn_header-account.png);
   }
+
+  .icon-header-5:after {
+    background-image: url(../images/icn_header-home.png);
+  }
 }
 
 .mt35 {
