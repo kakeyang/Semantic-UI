@@ -467,7 +467,6 @@
     }
 
     .st-table_row_column-liquid-tweet {
-        width: 365px;
         text-align: left;
     }
 
