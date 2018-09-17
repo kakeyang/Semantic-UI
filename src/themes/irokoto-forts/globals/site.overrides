@@ -1374,3 +1374,7 @@ body {
 .ml0 {
   margin-left: 0px !important;
 }
+
+.pre-line {
+  white-space: pre-line;
+}
