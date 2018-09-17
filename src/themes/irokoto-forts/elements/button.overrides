@@ -212,6 +212,17 @@
     border-radius: 30px;
 }
 
+.ui.button.sw-btn-retweet-140 {
+    padding: 10px 25px 10px 25px;
+    width: 140px;
+    font-size: 16px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 30px;
+}
+
 .st-table-dm .st-table_row_column-dm-report .sw-btn-s, .ui.button.sw-btn-s  {
     padding: 11px 0 12px;
     width: 140px;
