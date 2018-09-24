@@ -1382,3 +1382,7 @@ body {
 .mr15 {
   margin-right: 15px !important;
 }
+
+.w120 {
+  width: 120px !important;
+}
