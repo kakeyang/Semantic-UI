@@ -1378,3 +1378,11 @@ body {
 .pre-line {
   white-space: pre-line;
 }
+
+.mr15 {
+  margin-right: 15px !important;
+}
+
+.w120 {
+  width: 120px !important;
+}
