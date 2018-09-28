@@ -1387,6 +1387,6 @@ body {
   width: 120px !important;
 }
 
-.fcoln:focus {
-  outline: none;
+.fcbdn:focus {
+  border: none;
 }
