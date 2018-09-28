@@ -1388,5 +1388,5 @@ body {
 }
 
 .fcbdn:focus {
-  border: none;
+  border: none !important;
 }
