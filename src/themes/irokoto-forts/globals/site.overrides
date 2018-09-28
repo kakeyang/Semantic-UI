@@ -1386,3 +1386,7 @@ body {
 .w120 {
   width: 120px !important;
 }
+
+.fcoln:focus {
+  outline: none;
+}
