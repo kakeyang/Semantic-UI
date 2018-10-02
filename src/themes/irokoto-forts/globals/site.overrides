@@ -1390,3 +1390,7 @@ body {
 .fcbdn:focus {
   border: none !important;
 }
+
+.vertical-middle {
+  vertical-align: middle !important;
+}
