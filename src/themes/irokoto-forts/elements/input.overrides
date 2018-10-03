@@ -190,6 +190,10 @@
         width: 170px;
         min-width: 170px;
     }
+
+    .dropdown-items-ng .ui.dropdown {
+        width: 225px;
+    }
 }
 
 .item_input_cr_ex {

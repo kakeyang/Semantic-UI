@@ -1386,3 +1386,11 @@ body {
 .w120 {
   width: 120px !important;
 }
+
+.fcbdn:focus {
+  border: none !important;
+}
+
+.vertical-middle {
+  vertical-align: middle !important;
+}
