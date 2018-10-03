@@ -191,7 +191,7 @@
         min-width: 170px;
     }
 
-    .dropdown-items .ui.dropdown {
+    .dropdown-items-ng .ui.dropdown {
         width: 225px;
     }
 }
