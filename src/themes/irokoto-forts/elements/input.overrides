@@ -374,4 +374,7 @@
     letter-spacing: 0.025em;
     height: 47px;
   }
+  .react-datepicker-popper {
+    z-index: 3 !important;
+  }
 }
