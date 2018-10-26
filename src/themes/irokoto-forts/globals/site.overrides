@@ -1398,3 +1398,8 @@ body {
 .vertical-middle {
   vertical-align: middle !important;
 }
+
+.resize-vertical {
+  resize: vertical;
+  overflow: auto;
+}
