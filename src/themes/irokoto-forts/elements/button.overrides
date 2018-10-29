@@ -196,6 +196,9 @@
 .ui.button.sw-btn-ml35 {
     margin: 0 0 0 35px!important;
 }
+.ui.button.sw-btn-ml15 {
+    margin: 0 0 0 15px!important;
+}
 
 .ui.button.sw-btn-ib {
     display: inline-block!important;
