@@ -133,6 +133,17 @@
     text-align: left;
 }
 
+.keyword-search-textarea {
+    box-sizing: border-box;
+    height: 150px;
+    width: 460px !important;
+    border: 1px solid rgba(34,36,38,.15);
+    overflow: auto;
+    margin-top: 4px;
+    padding: 11px 14px;
+    text-align: left;
+}
+
 .ui.form .size-div:focus {
     border: 1px solid #86b1dc;
     outline-width: 0px;

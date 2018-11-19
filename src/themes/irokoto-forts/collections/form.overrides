@@ -419,6 +419,11 @@
     margin: 0px 10px 0 0px;
 }
 
+.keyword-search-popup {
+    text-align: left;
+    margin-left: 5px;
+}
+
 .st-form-dm .item_select {
     margin: 0 0 0 20px;
     float: left;
