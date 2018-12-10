@@ -107,6 +107,10 @@
     width: 485px;
 }
 
+.account-edit-form {
+    width: 505px;
+}
+
 .confirm-form {
     width: 600px;
     margin: 0px auto;
@@ -675,7 +679,7 @@
 
 .field-app .label-app {
   color: #616e7a;
-  margin-right: 116px;
+  margin-right: 10px;
   display: inline-block;
 }
 

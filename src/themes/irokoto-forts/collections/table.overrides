@@ -143,6 +143,10 @@
         text-align: left!important;
     }
 
+    .row-column-confirm-edit {
+        padding: 20px !important;
+    }
+
     .st-table_row-normal:hover .st-table_row_column-title {
         border-left: 1px solid #86b1dc!important;
     }
